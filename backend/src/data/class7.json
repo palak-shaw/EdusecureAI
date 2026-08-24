@@ -1,0 +1,222 @@
+{
+  "class": 7,
+  "subjects": {
+
+    "mathematics": [
+      {
+        "question": "What is integer?",
+        "answer": "Integers are numbers that include positive numbers, negative numbers, and zero. They are represented on a number line and are used to show direction, temperature, and gain or loss. Examples include -5, -1, 0, 2, and 10.",
+        "topic": "Number System"
+      },
+      {
+        "question": "What is rational number?",
+        "answer": "A rational number is any number that can be written in the form of p/q where p and q are integers and q is not zero. These numbers include fractions, decimals, and integers. They can be represented on a number line.",
+        "topic": "Number System"
+      },
+      {
+        "question": "What is algebra?",
+        "answer": "Algebra is a branch of mathematics that uses letters and symbols to represent numbers. It helps in solving equations and finding unknown values. Algebra is useful in solving real-life problems and higher mathematics.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "What is expression?",
+        "answer": "An expression is a combination of numbers, variables, and mathematical operations. It does not have an equal sign. For example, 2x + 3 is an algebraic expression.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "What is equation?",
+        "answer": "An equation is a mathematical statement that shows equality between two expressions using an equal sign. For example, 2x + 3 = 7. It is used to find unknown values.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "What is percentage?",
+        "answer": "Percentage means per hundred and is used to compare quantities. It is written with the symbol %. For example, 50% means 50 out of 100.",
+        "topic": "Arithmetic"
+      },
+      {
+        "question": "What is ratio?",
+        "answer": "A ratio is used to compare two quantities of the same type. It is written in the form a:b. Ratios are useful in daily life like comparing prices or measurements.",
+        "topic": "Arithmetic"
+      },
+      {
+        "question": "What is proportion?",
+        "answer": "Proportion shows that two ratios are equal. It is written as a:b = c:d. It is used in solving problems related to scaling and comparison.",
+        "topic": "Arithmetic"
+      },
+      {
+        "question": "What is perimeter?",
+        "answer": "Perimeter is the total length of the boundary of a shape. It is calculated by adding all sides of the figure. It is measured in units like cm or m.",
+        "topic": "Geometry"
+      },
+      {
+        "question": "What is area?",
+        "answer": "Area is the space occupied by a shape. It is measured in square units like cm² or m². It is used to measure surfaces such as land or walls.",
+        "topic": "Geometry"
+      }
+    ],
+
+    "physics": [
+      {
+        "question": "What is force?",
+        "answer": "Force is a push or pull acting on an object. It can change the shape, speed, or direction of the object. It is measured in Newtons and plays an important role in motion.",
+        "topic": "Force"
+      },
+      {
+        "question": "What is pressure?",
+        "answer": "Pressure is defined as force applied per unit area. It increases when the force is increased or the area is decreased. It is measured in Pascals.",
+        "topic": "Force"
+      },
+      {
+        "question": "What is work?",
+        "answer": "Work is said to be done when a force causes an object to move. It is calculated as force multiplied by distance. The unit of work is Joule.",
+        "topic": "Work"
+      },
+      {
+        "question": "What is energy?",
+        "answer": "Energy is the ability to do work. It exists in many forms such as heat, light, and mechanical energy. Energy is required for all activities.",
+        "topic": "Energy"
+      },
+      {
+        "question": "What is motion?",
+        "answer": "Motion is the change in position of an object with respect to time. It can be of different types like linear, circular, or periodic motion.",
+        "topic": "Motion"
+      },
+      {
+        "question": "What is speed?",
+        "answer": "Speed is the distance travelled by an object in a given time. It tells how fast an object is moving. It is measured in m/s or km/h.",
+        "topic": "Motion"
+      },
+      {
+        "question": "What is friction?",
+        "answer": "Friction is the force that opposes motion between two surfaces in contact. It slows down moving objects. It can be useful or harmful.",
+        "topic": "Force"
+      }
+    ],
+
+    "biology": [
+      {
+        "question": "What is photosynthesis?",
+        "answer": "Photosynthesis is the process by which green plants prepare food using sunlight, water, and carbon dioxide. It produces oxygen as a by-product.",
+        "topic": "Plants"
+      },
+      {
+        "question": "What is respiration?",
+        "answer": "Respiration is the process of releasing energy from food. It involves taking in oxygen and giving out carbon dioxide.",
+        "topic": "Life Processes"
+      },
+      {
+        "question": "What is digestion?",
+        "answer": "Digestion is the process of breaking down food into simpler forms that can be absorbed by the body.",
+        "topic": "Human Body"
+      },
+      {
+        "question": "What is excretion?",
+        "answer": "Excretion is the process of removing waste materials from the body. It helps maintain a healthy internal environment.",
+        "topic": "Human Body"
+      },
+      {
+        "question": "What is ecosystem?",
+        "answer": "An ecosystem is a system where living organisms interact with non-living components like air, water, and soil.",
+        "topic": "Environment"
+      }
+    ],
+
+    "chemistry": [
+      {
+        "question": "What is atom?",
+        "answer": "An atom is the smallest particle of matter that retains the properties of an element. It is the building block of all substances.",
+        "topic": "Matter"
+      },
+      {
+        "question": "What is molecule?",
+        "answer": "A molecule is formed when two or more atoms combine together. It represents the smallest unit of a compound.",
+        "topic": "Matter"
+      },
+      {
+        "question": "What is element?",
+        "answer": "An element is a pure substance made up of only one type of atom. It cannot be broken into simpler substances.",
+        "topic": "Matter"
+      },
+      {
+        "question": "What is compound?",
+        "answer": "A compound is formed when two or more elements combine chemically. It has different properties from its elements.",
+        "topic": "Matter"
+      },
+      {
+        "question": "What is mixture?",
+        "answer": "A mixture is a combination of substances that are not chemically combined. Each component retains its properties.",
+        "topic": "Matter"
+      }
+    ],
+
+    "social_science": [
+      {
+        "question": "What is history?",
+        "answer": "History is the study of past events, civilizations, and important developments. It helps us understand how societies evolved over time.",
+        "topic": "History"
+      },
+      {
+        "question": "What is geography?",
+        "answer": "Geography studies the Earth, its landforms, climate, and environment. It explains how humans interact with nature.",
+        "topic": "Geography"
+      },
+      {
+        "question": "What is civics?",
+        "answer": "Civics is the study of rights, duties, and responsibilities of citizens. It explains how government works.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is democracy?",
+        "answer": "Democracy is a system of government where people elect their leaders. It ensures equality and freedom.",
+        "topic": "Civics"
+      }
+    ],
+
+    "english": [
+      {
+        "question": "What is noun?",
+        "answer": "A noun is a word that names a person, place, animal, or thing. It is one of the basic parts of speech used in sentences.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is verb?",
+        "answer": "A verb is a word that shows action or state of being. It tells what the subject is doing in a sentence.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is adjective?",
+        "answer": "An adjective is a word that describes a noun. It gives more information about size, color, or quality.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is sentence?",
+        "answer": "A sentence is a group of words that gives complete meaning. It begins with a capital letter and ends with punctuation.",
+        "topic": "Grammar"
+      }
+    ],
+
+    "computer": [
+      {
+        "question": "What is computer?",
+        "answer": "A computer is an electronic machine that processes data and produces output. It works quickly and accurately.",
+        "topic": "Basics"
+      },
+      {
+        "question": "What is hardware?",
+        "answer": "Hardware includes physical parts of a computer like keyboard, mouse, and monitor.",
+        "topic": "Hardware"
+      },
+      {
+        "question": "What is software?",
+        "answer": "Software is a set of programs that instruct the computer to perform tasks.",
+        "topic": "Software"
+      },
+      {
+        "question": "What is internet?",
+        "answer": "The internet is a global network connecting computers and sharing information.",
+        "topic": "Internet"
+      }
+    ]
+
+  }
+}

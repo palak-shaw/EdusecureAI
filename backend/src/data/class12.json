@@ -1,0 +1,815 @@
+{
+  "class": 12,
+  "subjects": {
+    "mathematics": [
+      {
+        "question": "Define relation and function.",
+        "answer": "A relation is a subset of A × B showing connection between elements. A function is a special relation where each input has exactly one output. Functions are written as f(x). Types include one-one, onto, and bijective. Functions are used in calculus and real-world modeling. They help describe dependencies between variables. They are fundamental in algebra and analysis.",
+        "topic": "Relations"
+      },
+      {
+        "question": "What is derivative?",
+        "answer": "Derivative represents rate of change of a function. It is defined as f'(x) = lim(h→0) [f(x+h) - f(x)]/h. It gives slope of tangent line. It is used in motion, velocity, and optimization. If derivative is zero, function may have maxima or minima. It is a core concept in calculus. It is widely used in engineering.",
+        "topic": "Differentiation"
+      },
+      {
+        "question": "State basic derivative formulas.",
+        "answer": "Some important formulas are: d/dx(x^n)=nx^(n-1), d/dx(sin x)=cos x, d/dx(cos x)=-sin x, d/dx(e^x)=e^x, d/dx(log x)=1/x. These formulas help in solving calculus problems. They simplify differentiation. They are used in solving real-world problems. These rules form the base of calculus.",
+        "topic": "Formulas"
+      },
+      {
+        "question": "Explain integration.",
+        "answer": "Integration is reverse of differentiation. It is written as ∫f(x)dx. It is used to find area under curve. Example: ∫x dx = x²/2 + C. It includes definite and indefinite integrals. It is used in physics for displacement. Integration helps in calculating volume and work.",
+        "topic": "Integration"
+      },
+      {
+        "question": "State integration formulas.",
+        "answer": "Important formulas: ∫x^n dx = x^(n+1)/(n+1)+C, ∫1/x dx = log x + C, ∫sin x dx = -cos x + C, ∫cos x dx = sin x + C, ∫e^x dx = e^x + C. These formulas are basic tools in calculus. They help solve integration problems quickly.",
+        "topic": "Formulas"
+      },
+      {
+        "question": "Define matrix.",
+        "answer": "Matrix is rectangular arrangement of numbers in rows and columns. It is used in solving linear equations. Types include square, identity, diagonal matrices. Matrix operations include addition and multiplication. They are used in engineering and computer science. They help simplify calculations.",
+        "topic": "Matrices"
+      },
+      {
+        "question": "Define determinant.",
+        "answer": "Determinant is scalar value of square matrix. For 2×2 matrix |A| = ad - bc. It is used to find inverse of matrix. If determinant is zero, matrix is singular. It helps solve equations. It is widely used in algebra.",
+        "topic": "Determinants"
+      },
+      {
+        "question": "Define vector.",
+        "answer": "Vector is quantity with magnitude and direction. It is written as ai + bj + ck. Magnitude = √(a²+b²+c²). Vectors are used in physics. They represent force, velocity. Vector operations include dot and cross product. They are important in 3D geometry.",
+        "topic": "Vectors"
+      },
+      {
+        "question": "Define probability.",
+        "answer": "Probability measures chance of event. Formula: P(E)=favorable/total outcomes. It lies between 0 and 1. It is used in statistics. It helps predict events. It is used in real life decision making.",
+        "topic": "Probability"
+      }
+    ],
+    "physics": [
+      {
+        "question": "State Ohm’s Law and explain its significance.",
+        "answer": "Ohm’s Law states that the current through a conductor is directly proportional to the potential difference across it at constant temperature. The formula is V = IR. Here V is potential difference, I is current, and R is resistance. This law is used to study electric circuits. It helps calculate unknown electrical quantities. It is fundamental in current electricity.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "Define electric current and write its formula.",
+        "answer": "Electric current is the rate of flow of electric charge through a conductor. Its formula is I = Q/t. Here Q is charge and t is time. The SI unit of current is ampere. Current is produced due to movement of electrons. It is an important concept in electrical circuits.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "What is potential difference?",
+        "answer": "Potential difference is the work done to move a unit positive charge from one point to another. The formula is V = W/Q. It is measured in volt. It provides energy to charges to move in a circuit. Without potential difference, current does not flow. It is a key concept in electricity.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "Define resistance and mention factors affecting it.",
+        "answer": "Resistance is the opposition offered by a conductor to the flow of current. Its formula is R = V/I. Resistance depends on length, area of cross-section, material, and temperature. Longer wire has more resistance. A thicker wire has less resistance. Resistance is measured in ohm.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "Write the formula for resistivity and explain it.",
+        "answer": "Resistivity is a property of a material that shows how strongly it resists current. The formula is ρ = RA/l. Here R is resistance, A is area, and l is length. It depends only on the material and temperature. Its SI unit is ohm metre. It is useful for comparing conductors.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "State the formula for electric power.",
+        "answer": "Electric power is the rate at which electrical energy is consumed or converted. The formula is P = VI. It can also be written as P = I²R and P = V²/R. Its SI unit is watt. It is used to measure the power rating of appliances. It is important in household electricity.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "Define electrical energy and write its formula.",
+        "answer": "Electrical energy is the total work done by electric current in a circuit. The formula is E = Pt or E = VIt. It depends on power and time. In practical use, electrical energy is measured in kilowatt-hour. It is used in electricity bills. It tells how much energy an appliance uses.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "State Kirchhoff’s first law.",
+        "answer": "Kirchhoff’s first law is also called the junction rule. It states that the sum of currents entering a junction is equal to the sum of currents leaving it. This law is based on conservation of charge. It is used in complex circuit analysis. It helps solve network problems. It is very important in electrical circuits.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "State Kirchhoff’s second law.",
+        "answer": "Kirchhoff’s second law is also called the loop rule. It states that the algebraic sum of potential differences in a closed loop is zero. This law is based on conservation of energy. It is used to solve electrical circuits with many components. It helps find unknown currents. It is essential in circuit analysis.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "Explain series combination of resistors.",
+        "answer": "In series combination, resistors are connected one after another in the same path. The same current flows through each resistor. The equivalent resistance is R = R1 + R2 + R3. The total resistance increases in series. This arrangement is used when higher resistance is needed. It is common in simple circuits.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "Explain parallel combination of resistors.",
+        "answer": "In parallel combination, resistors are connected across the same two points. The potential difference across each resistor is the same. The equivalent resistance is given by 1/R = 1/R1 + 1/R2 + 1/R3. The total resistance decreases in parallel. This arrangement is used in household wiring. It ensures independent operation of devices.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "Define drift velocity.",
+        "answer": "Drift velocity is the average velocity acquired by free electrons in a conductor under the effect of an electric field. Its formula is I = nAe vd. Here n is number density, A is area, e is charge, and vd is drift velocity. It is generally very small. It explains current at microscopic level. It is important in electron theory.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "What is mobility of charge carriers?",
+        "answer": "Mobility is the drift velocity per unit electric field. Its formula is μ = vd/E. It shows how easily charge carriers move in a material. Higher mobility means charges move more freely. It is important in conductors and semiconductors. It helps study electrical conduction. It is widely used in electronics.",
+        "topic": "Current Electricity"
+      },
+      {
+        "question": "Define capacitance and write its formula.",
+        "answer": "Capacitance is the ability of a conductor to store electric charge. The formula is C = Q/V. Here Q is charge and V is potential difference. Its SI unit is farad. A capacitor stores electrical energy in an electric field. It is used in circuits, filters, and timing devices. Capacitance is a basic concept in electrostatics.",
+        "topic": "Electrostatics"
+      },
+      {
+        "question": "What is the capacitance of a parallel plate capacitor?",
+        "answer": "The capacitance of a parallel plate capacitor is C = ε0A/d. Here ε0 is permittivity of free space, A is plate area, and d is separation between plates. It increases with larger area and decreases with greater distance. If a dielectric is inserted, capacitance becomes C = Kε0A/d. It is widely used in circuits. It is an important formula in electrostatics.",
+        "topic": "Electrostatics"
+      },
+      {
+        "question": "Write the formula for energy stored in a capacitor.",
+        "answer": "The energy stored in a capacitor is U = 1/2 CV². It can also be written as U = 1/2 QV or U = Q²/2C. This energy is stored in the electric field between the plates. It depends on capacitance and potential difference. Capacitors release this energy when needed. They are useful in electronic devices.",
+        "topic": "Electrostatics"
+      },
+      {
+        "question": "Define electric field.",
+        "answer": "Electric field is the region around a charge where another charge experiences force. The electric field strength is E = F/q. It is a vector quantity. Its SI unit is newton per coulomb. It shows the effect of charges in space. It is a core idea in electrostatics.",
+        "topic": "Electrostatics"
+      },
+      {
+        "question": "State Coulomb’s law.",
+        "answer": "Coulomb’s law states that the force between two point charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them. The formula is F = kq1q2/r². The force acts along the line joining the charges. It may be attractive or repulsive. This law explains electrostatic interaction. It is fundamental in electrostatics.",
+        "topic": "Electrostatics"
+      },
+      {
+        "question": "Define electric potential.",
+        "answer": "Electric potential at a point is the work done per unit positive charge in bringing it from infinity to that point. The formula is V = W/q. It is a scalar quantity. Its SI unit is volt. It helps describe electric effects in a field. It is closely related to potential difference.",
+        "topic": "Electrostatics"
+      },
+      {
+        "question": "Write the electric potential due to a point charge.",
+        "answer": "The electric potential due to a point charge is V = kq/r. Here q is the charge and r is the distance from the charge. It is inversely proportional to distance. Potential is positive for positive charge and negative for negative charge. It is a scalar quantity. It is widely used in electrostatics problems.",
+        "topic": "Electrostatics"
+      },
+      {
+        "question": "State Gauss’s law.",
+        "answer": "Gauss’s law states that the total electric flux through a closed surface is equal to 1/ε0 times the net charge enclosed. The formula is Φ = q/ε0. It is useful for calculating electric fields of symmetrical charge distributions. It simplifies many electrostatic problems. It is an important law of electromagnetism. It is based on flux concept.",
+        "topic": "Electrostatics"
+      },
+      {
+        "question": "Define magnetic field.",
+        "answer": "Magnetic field is the region around a magnet or current-carrying conductor where magnetic force can be experienced. It is represented by B. Its SI unit is tesla. Magnetic field lines show direction and strength. It plays a major role in motors and generators. It is central to magnetism.",
+        "topic": "Magnetism"
+      },
+      {
+        "question": "Write Biot–Savart law.",
+        "answer": "Biot–Savart law gives the magnetic field due to a small current element. It states that dB ∝ Idl sinθ/r². In vector form, dB = μ0/4π × (Idl sinθ)/r². It helps calculate magnetic fields of conductors. It is useful in circular and straight wire problems. It is an important law in magnetism.",
+        "topic": "Magnetism"
+      },
+      {
+        "question": "State Ampere’s circuital law.",
+        "answer": "Ampere’s circuital law states that the line integral of magnetic field around a closed loop is equal to μ0 times the current enclosed. The formula is ∮B·dl = μ0I. It is useful for symmetrical current distributions. It helps derive magnetic field of solenoids and wires. It is a major law in magnetism.",
+        "topic": "Magnetism"
+      },
+      {
+        "question": "What is the magnetic field due to a long straight conductor?",
+        "answer": "The magnetic field due to a long straight conductor carrying current is B = μ0I/2πr. Here I is current and r is distance from the wire. The field decreases with distance. Its direction is given by the right-hand thumb rule. It is an important result in magnetism. It is often used in derivations and numericals.",
+        "topic": "Magnetism"
+      },
+      {
+        "question": "What is the magnetic field at the center of a circular loop?",
+        "answer": "The magnetic field at the center of a circular current loop is B = μ0I/2R. For N turns, it becomes B = μ0NI/2R. It depends on current and radius. The direction is perpendicular to the plane of the loop. This formula is widely used in coil problems. It is important in current electricity and magnetism.",
+        "topic": "Magnetism"
+      },
+      {
+        "question": "Define magnetic moment of a current loop.",
+        "answer": "Magnetic moment of a current loop is the product of current and area of the loop. The formula is M = IA. For a coil of N turns, M = NIA. It is a vector quantity. It determines the turning effect of the loop in a magnetic field. It is important in torque calculations. It is widely used in magnetism.",
+        "topic": "Magnetism"
+      },
+      {
+        "question": "Write the torque on a magnetic dipole in a uniform magnetic field.",
+        "answer": "The torque on a magnetic dipole in a uniform magnetic field is τ = MB sinθ. Here M is magnetic moment, B is magnetic field, and θ is angle between them. Torque tends to align the dipole with the field. It is maximum at 90 degrees. It is zero when aligned. This concept is used in magnetic instruments.",
+        "topic": "Magnetism"
+      },
+      {
+        "question": "State Faraday’s laws of electromagnetic induction.",
+        "answer": "Faraday’s first law states that an emf is induced whenever magnetic flux linked with a circuit changes. The second law states that the magnitude of induced emf is equal to the rate of change of magnetic flux. The formula is e = -dΦ/dt. The negative sign is due to Lenz’s law. This principle is used in generators and transformers. It is a key concept in electromagnetic induction.",
+        "topic": "Electromagnetic Induction"
+      },
+      {
+        "question": "State Lenz’s law.",
+        "answer": "Lenz’s law states that the direction of induced current is such that it opposes the cause producing it. This is shown by the negative sign in e = -dΦ/dt. It is based on conservation of energy. It helps determine direction of induced current. It is important in electromagnetic induction. It is applied in coils and circuits.",
+        "topic": "Electromagnetic Induction"
+      },
+      {
+        "question": "Define self inductance.",
+        "answer": "Self inductance is the property of a coil by which it opposes any change in current flowing through it. The induced emf is e = -L di/dt. Here L is self inductance. Its SI unit is henry. It depends on the coil’s number of turns and geometry. It is useful in inductors and AC circuits.",
+        "topic": "Electromagnetic Induction"
+      },
+      {
+        "question": "Define mutual inductance.",
+        "answer": "Mutual inductance is the property by which a change of current in one coil induces emf in another nearby coil. The induced emf is e = -M di/dt. Here M is mutual inductance. It is the basis of transformer working. It depends on coil arrangement. It is important in electromagnetic devices.",
+        "topic": "Electromagnetic Induction"
+      },
+      {
+        "question": "Write the expression for energy stored in an inductor.",
+        "answer": "The energy stored in an inductor is U = 1/2 LI². Here L is inductance and I is current. This energy is stored in the magnetic field around the inductor. It increases with current. Inductors are used in filters and circuits. This formula is important in electromagnetic induction.",
+        "topic": "Electromagnetic Induction"
+      },
+      {
+        "question": "Define alternating current.",
+        "answer": "Alternating current is a current that changes magnitude and direction periodically. It is represented by I = I0 sinωt. Its frequency is the number of cycles per second. AC is used in homes and industries. It can be transmitted efficiently over long distances. It is a major part of modern power systems.",
+        "topic": "Alternating Current"
+      },
+      {
+        "question": "What is rms value of alternating current?",
+        "answer": "The rms value of AC is the effective value that produces the same heating effect as an equal DC. For current, Irms = I0/√2. For voltage, Vrms = V0/√2. It is used in practical calculations. Household voltage ratings are rms values. It is important in AC circuit analysis.",
+        "topic": "Alternating Current"
+      },
+      {
+        "question": "Define reactance and impedance.",
+        "answer": "Reactance is the opposition offered by inductors or capacitors to alternating current. Inductive reactance is XL = ωL and capacitive reactance is XC = 1/ωC. Impedance is the total opposition in an AC circuit and is represented by Z. It combines resistance and reactance. It is used in AC analysis. It is measured in ohm.",
+        "topic": "Alternating Current"
+      },
+      {
+        "question": "Write the formula for impedance in an LCR circuit.",
+        "answer": "In a series LCR circuit, impedance is Z = √[R² + (XL - XC)²]. It depends on resistance, inductive reactance, and capacitive reactance. It determines the current in the circuit. Current is I = V/Z. This formula is important in AC numericals. It helps understand resonance and phase difference.",
+        "topic": "Alternating Current"
+      },
+      {
+        "question": "What is resonance in an AC circuit?",
+        "answer": "Resonance in an LCR circuit occurs when inductive reactance equals capacitive reactance, so XL = XC. At resonance, impedance becomes minimum and current becomes maximum. The resonant frequency is f = 1/2π√LC. Resonance is used in tuning circuits. It is important in radio and communication systems. It is a key topic in AC.",
+        "topic": "Alternating Current"
+      },
+      {
+        "question": "Define electromagnetic wave.",
+        "answer": "Electromagnetic waves are waves made of oscillating electric and magnetic fields. They do not need a material medium to travel. They move with speed c = 3 × 10^8 m/s in vacuum. Examples include radio waves, light, and X-rays. They are transverse waves. They are central to modern communication.",
+        "topic": "Electromagnetic Waves"
+      },
+      {
+        "question": "Write the relation between speed, frequency and wavelength of a wave.",
+        "answer": "The relation is v = fλ. Here v is speed, f is frequency, and λ is wavelength. For electromagnetic waves in vacuum, c = fλ. If frequency increases, wavelength decreases for constant speed. This relation is widely used in wave problems. It is fundamental in optics and wave theory.",
+        "topic": "Waves"
+      },
+      {
+        "question": "State Huygens’ principle.",
+        "answer": "Huygens’ principle states that every point on a wavefront acts as a source of secondary wavelets. The new wavefront is the forward envelope of these wavelets. It explains reflection and refraction of waves. It is useful in wave optics. It helps understand propagation of light. It is a key principle in optics.",
+        "topic": "Wave Optics"
+      },
+      {
+        "question": "State Snell’s law of refraction.",
+        "answer": "Snell’s law states that the ratio of sine of angle of incidence to sine of angle of refraction is constant for a given pair of media. The formula is n1 sin i = n2 sin r. It explains bending of light at boundaries. It is used in lenses and prisms. It is a fundamental law in ray optics.",
+        "topic": "Ray Optics"
+      },
+      {
+        "question": "Write the mirror formula.",
+        "answer": "The mirror formula is 1/f = 1/v + 1/u. Here f is focal length, v is image distance, and u is object distance. It applies to spherical mirrors. It is used to find image position. It follows the sign convention. It is a standard formula in ray optics.",
+        "topic": "Ray Optics"
+      },
+      {
+        "question": "Write the lens formula.",
+        "answer": "The lens formula is 1/f = 1/v - 1/u. Here f is focal length, v is image distance, and u is object distance. It applies to thin lenses. It helps determine image position and nature. It follows sign convention. It is very important in optics numericals.",
+        "topic": "Ray Optics"
+      },
+      {
+        "question": "Define magnification and write its formula for lenses.",
+        "answer": "Magnification is the ratio of image height to object height. For a lens, m = h'/h = v/u. It tells how large or small the image is. Positive magnification means erect image. Negative magnification means inverted image. It is useful in optical instruments. It is a standard result in optics.",
+        "topic": "Ray Optics"
+      },
+      {
+        "question": "What is total internal reflection?",
+        "answer": "Total internal reflection occurs when a ray of light travels from denser to rarer medium and the angle of incidence is greater than the critical angle. In this case, the ray is completely reflected back into the denser medium. It is used in optical fibers, prisms, and diamonds. It is an important concept in optics. It has many practical applications.",
+        "topic": "Ray Optics"
+      },
+      {
+        "question": "Define dispersion of light.",
+        "answer": "Dispersion is the splitting of white light into its component colors when it passes through a prism. It occurs because different colors have different wavelengths and refractive indices. Violet bends the most and red bends the least. Dispersion forms a spectrum. It explains rainbow formation. It is a key concept in optics.",
+        "topic": "Ray Optics"
+      },
+      {
+        "question": "State Einstein’s photoelectric equation.",
+        "answer": "Einstein’s photoelectric equation is hν = φ + Kmax. Here hν is energy of incident photon, φ is work function, and Kmax is maximum kinetic energy of emitted electrons. It explains the photoelectric effect. It shows particle nature of light. It is important in modern physics. It helped establish quantum theory.",
+        "topic": "Modern Physics"
+      },
+      {
+        "question": "Define work function.",
+        "answer": "Work function is the minimum energy needed to remove an electron from the surface of a metal. It is represented by φ. Its value depends on the material. If photon energy is less than work function, no emission occurs. It is important in photoelectric effect. It is measured in electron volt or joule.",
+        "topic": "Modern Physics"
+      },
+      {
+        "question": "What is de Broglie wavelength?",
+        "answer": "De Broglie stated that every moving particle has wave nature. Its wavelength is λ = h/p = h/mv. Here h is Planck’s constant and p is momentum. This relation connects particles and waves. It is important in quantum mechanics. It explains wave-particle duality.",
+        "topic": "Modern Physics"
+      },
+      {
+        "question": "State Bohr’s radius formula.",
+        "answer": "In Bohr’s model, the radius of the nth orbit is rn = n²a0/Z. Here a0 is Bohr radius and Z is atomic number. It gives the allowed orbit sizes of electrons in atoms. It helped explain hydrogen spectrum. It is an important result in atomic physics. It is used in simple atom models.",
+        "topic": "Atoms"
+      },
+      {
+        "question": "Write the formula for energy of electron in Bohr orbit.",
+        "answer": "The energy of an electron in the nth orbit is En = -13.6 Z²/n² electron volt for hydrogen-like atoms. It is negative because the electron is bound to the nucleus. Higher orbits have higher energy. Transitions between levels produce spectral lines. This formula is important in atomic structure.",
+        "topic": "Atoms"
+      },
+      {
+        "question": "Define half-life and write its formula.",
+        "answer": "Half-life is the time required for half the radioactive nuclei in a sample to decay. It is related to decay constant by T1/2 = 0.693/λ. It is a characteristic property of a radioactive substance. It is independent of initial amount. It is important in nuclear physics and dating methods.",
+        "topic": "Nuclei"
+      }
+    ],
+    "chemistry": [
+      {
+        "question": "What is the ideal gas equation?",
+        "answer": "The ideal gas equation is PV = nRT. Here P is pressure, V is volume, n is number of moles, R is universal gas constant, and T is temperature. It combines Boyle’s law, Charles’s law, and Avogadro’s law. It is useful for gas calculations. It is widely used in physical chemistry. It is a basic equation for gases.",
+        "topic": "States of Matter"
+      },
+      {
+        "question": "Define mole and Avogadro number.",
+        "answer": "A mole is the amount of substance containing 6.022 × 10^23 particles. This number is called Avogadro number. It connects microscopic particles with measurable mass. Mole concept is used in chemical calculations. It is fundamental in stoichiometry. It helps compare amounts of substances.",
+        "topic": "Some Basic Concepts of Chemistry"
+      },
+      {
+        "question": "Write the formula for molarity.",
+        "answer": "Molarity is the number of moles of solute present in one litre of solution. The formula is M = n/V, where n is moles and V is volume in litre. It is a common way to express concentration. It is useful in solution chemistry. It is temperature dependent. It is used in laboratory calculations.",
+        "topic": "Solutions"
+      },
+      {
+        "question": "What is molality?",
+        "answer": "Molality is the number of moles of solute dissolved in one kilogram of solvent. The formula is m = n/W, where n is moles of solute and W is mass of solvent in kg. It does not depend on temperature. It is used in colligative properties. It is different from molarity. It is important in solution chemistry.",
+        "topic": "Solutions"
+      },
+      {
+        "question": "Define normality.",
+        "answer": "Normality is the number of gram equivalents of solute per litre of solution. The formula is N = equivalents/volume in litre. It is used mainly in acid-base and redox calculations. It depends on the reaction involved. It is useful in titrations. It is a concentration term in chemistry.",
+        "topic": "Solutions"
+      },
+      {
+        "question": "State the law of conservation of mass.",
+        "answer": "The law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction. The total mass of reactants equals the total mass of products. It is a basic chemical law. It is used in balancing equations. It shows matter is conserved. It is fundamental to stoichiometry.",
+        "topic": "Some Basic Concepts of Chemistry"
+      },
+      {
+        "question": "State the law of definite proportions.",
+        "answer": "The law of definite proportions states that a chemical compound always contains the same elements in the same fixed proportion by mass. Water always contains hydrogen and oxygen in a fixed ratio. This law supports the concept of pure compounds. It is important in chemical analysis. It is one of the basic laws of chemistry.",
+        "topic": "Some Basic Concepts of Chemistry"
+      },
+      {
+        "question": "Explain Dalton’s law of partial pressures.",
+        "answer": "Dalton’s law states that the total pressure exerted by a mixture of non-reacting gases is equal to the sum of partial pressures of individual gases. The formula is Ptotal = P1 + P2 + P3. It is useful in gas mixtures. It helps in atmospheric and laboratory calculations. It is important in physical chemistry.",
+        "topic": "States of Matter"
+      },
+      {
+        "question": "What is Graham’s law of diffusion?",
+        "answer": "Graham’s law states that the rate of diffusion of a gas is inversely proportional to the square root of its molar mass. The formula is r1/r2 = √(M2/M1). Lighter gases diffuse faster than heavier gases. It is used in gas behavior analysis. It helps compare diffusion rates. It is a useful gas law.",
+        "topic": "States of Matter"
+      },
+      {
+        "question": "What is the van der Waals equation?",
+        "answer": "The van der Waals equation corrects the ideal gas equation for real gases. It is written as (P + an²/V²)(V - nb) = nRT. Here a corrects intermolecular attraction and b corrects volume occupied by gas molecules. It explains behavior of real gases better. It is used at high pressure and low temperature. It is important in physical chemistry.",
+        "topic": "States of Matter"
+      },
+      {
+        "question": "Define empirical formula and molecular formula.",
+        "answer": "The empirical formula shows the simplest whole-number ratio of atoms in a compound. The molecular formula shows the actual number of atoms of each element in a molecule. Molecular formula can be obtained using molecular mass and empirical formula mass. These formulas are used in composition calculations. They are basic in chemistry. They help identify compounds.",
+        "topic": "Some Basic Concepts of Chemistry"
+      },
+      {
+        "question": "What is the formula for density of a gas?",
+        "answer": "The density of a gas can be calculated from the ideal gas equation. The formula is d = PM/RT. Here d is density, P is pressure, M is molar mass, R is gas constant, and T is temperature. This formula shows density depends on pressure and temperature. It is useful in gas calculations. It is important in physical chemistry.",
+        "topic": "States of Matter"
+      },
+      {
+        "question": "Define atomic number and mass number.",
+        "answer": "Atomic number is the number of protons present in the nucleus of an atom. It is denoted by Z. Mass number is the total number of protons and neutrons. It is denoted by A. Thus A = Z + N, where N is number of neutrons. These numbers help identify elements. They are basic in atomic structure.",
+        "topic": "Structure of Atom"
+      },
+      {
+        "question": "State Bohr’s formula for energy levels.",
+        "answer": "According to Bohr’s model, the energy of an electron in the nth orbit is En = -13.6/n² eV for hydrogen atom. The negative sign shows the electron is bound to the nucleus. Higher orbit means higher energy. Transitions between levels produce spectral lines. This formula is important in atomic structure. It explains hydrogen spectrum.",
+        "topic": "Structure of Atom"
+      },
+      {
+        "question": "What is de Broglie equation?",
+        "answer": "De Broglie proposed that moving particles have wave nature. The wavelength associated with a particle is λ = h/mv. Here h is Planck’s constant, m is mass, and v is velocity. This idea introduced wave-particle duality. It is important in quantum mechanics. It changed the understanding of atomic particles.",
+        "topic": "Structure of Atom"
+      },
+      {
+        "question": "State Heisenberg uncertainty principle.",
+        "answer": "Heisenberg uncertainty principle states that it is impossible to determine the exact position and exact momentum of a particle at the same time. The formula is Δx · Δp ≥ h/4π. It is a key idea in quantum mechanics. It shows the limitation of measurement at microscopic level. It is important in atomic theory.",
+        "topic": "Structure of Atom"
+      },
+      {
+        "question": "Define ionization enthalpy.",
+        "answer": "Ionization enthalpy is the energy required to remove the most loosely bound electron from an isolated gaseous atom. It measures how strongly an atom holds its electrons. It generally increases across a period and decreases down a group. It is important in periodic properties. It helps explain chemical reactivity.",
+        "topic": "Classification of Elements and Periodicity"
+      },
+      {
+        "question": "Define electron gain enthalpy.",
+        "answer": "Electron gain enthalpy is the energy change when an electron is added to an isolated gaseous atom. If energy is released, the value is negative. It helps explain tendency to form anions. It varies across the periodic table. It is related to electron affinity. It is an important periodic property.",
+        "topic": "Classification of Elements and Periodicity"
+      },
+      {
+        "question": "What is electronegativity?",
+        "answer": "Electronegativity is the tendency of an atom in a molecule to attract the shared electron pair toward itself. It influences bond polarity. It generally increases across a period and decreases down a group. Fluorine has the highest electronegativity. It is important in bond formation. It helps explain chemical behavior.",
+        "topic": "Chemical Bonding"
+      },
+      {
+        "question": "Explain octet rule.",
+        "answer": "The octet rule states that atoms tend to gain, lose, or share electrons to achieve eight electrons in their valence shell. This gives them a stable noble gas configuration. It explains ionic and covalent bond formation. There are some exceptions to this rule. It is a simple model of chemical bonding. It is important in introductory chemistry.",
+        "topic": "Chemical Bonding"
+      },
+      {
+        "question": "Differentiate between ionic and covalent bond.",
+        "answer": "An ionic bond is formed by transfer of electrons from one atom to another. A covalent bond is formed by sharing of electron pairs. Ionic compounds usually have high melting points and conduct electricity in molten state. Covalent compounds are often molecular and poor conductors. Both types of bonds help achieve stability. They are basic bond types in chemistry.",
+        "topic": "Chemical Bonding"
+      },
+      {
+        "question": "What is formal charge?",
+        "answer": "Formal charge is the charge assigned to an atom in a molecule assuming equal sharing of bonding electrons. The formula is Formal charge = valence electrons - nonbonding electrons - 1/2 bonding electrons. It helps choose the best Lewis structure. Lower formal charges usually indicate more stable structure. It is important in bonding theory.",
+        "topic": "Chemical Bonding"
+      },
+      {
+        "question": "What is hybridization?",
+        "answer": "Hybridization is the mixing of atomic orbitals of nearly equal energy to form new equivalent hybrid orbitals. Examples include sp, sp2, and sp3. It explains molecular shapes and bond angles. It is widely used in valence bond theory. Hybridization helps understand geometry of molecules. It is a basic idea in bonding.",
+        "topic": "Chemical Bonding"
+      },
+      {
+        "question": "State VSEPR theory.",
+        "answer": "VSEPR theory stands for Valence Shell Electron Pair Repulsion theory. It states that electron pairs around the central atom arrange themselves as far apart as possible to minimize repulsion. This determines the shape of molecules. It explains linear, trigonal planar, tetrahedral, and other shapes. It is useful in predicting molecular geometry.",
+        "topic": "Chemical Bonding"
+      },
+      {
+        "question": "What is bond order?",
+        "answer": "Bond order is the number of chemical bonds between a pair of atoms. In molecular orbital theory, bond order = 1/2 (Nb - Na), where Nb is number of bonding electrons and Na is number of antibonding electrons. Higher bond order means stronger and shorter bond. It helps compare stability of molecules. It is important in molecular orbital theory.",
+        "topic": "Chemical Bonding"
+      },
+      {
+        "question": "Define oxidation number.",
+        "answer": "Oxidation number is the apparent charge assigned to an atom in a compound or ion. It helps identify oxidation and reduction. There are standard rules to assign oxidation numbers. It is essential in balancing redox equations. It is widely used in inorganic chemistry. It helps track electron transfer.",
+        "topic": "Redox Reactions"
+      },
+      {
+        "question": "Differentiate between oxidation and reduction.",
+        "answer": "Oxidation is loss of electrons, increase in oxidation number, or addition of oxygen. Reduction is gain of electrons, decrease in oxidation number, or removal of oxygen. These processes occur together in redox reactions. They are important in corrosion, batteries, and metabolism. They are fundamental concepts in chemistry.",
+        "topic": "Redox Reactions"
+      },
+      {
+        "question": "What is the Nernst equation?",
+        "answer": "The Nernst equation relates electrode potential with concentration. It is written as E = E° - (0.0591/n) log Q at 298 K. Here E° is standard potential, n is electrons transferred, and Q is reaction quotient. It is useful in electrochemistry. It helps calculate cell potential under non-standard conditions. It is a key equation in physical chemistry.",
+        "topic": "Electrochemistry"
+      },
+      {
+        "question": "Define enthalpy and write the relation for heat at constant pressure.",
+        "answer": "Enthalpy is the total heat content of a system. It is represented by H. At constant pressure, heat change is equal to change in enthalpy, so ΔH = qp. Enthalpy is useful in chemical thermodynamics. It helps describe heat absorbed or released. It is important in reaction energetics.",
+        "topic": "Thermodynamics"
+      },
+      {
+        "question": "State the first law of thermodynamics.",
+        "answer": "The first law of thermodynamics states that energy can neither be created nor destroyed. It can only be converted from one form to another. The mathematical form is ΔU = q + w. Here ΔU is change in internal energy, q is heat, and w is work. It is based on energy conservation. It is fundamental in thermodynamics.",
+        "topic": "Thermodynamics"
+      },
+      {
+        "question": "Define entropy.",
+        "answer": "Entropy is a measure of randomness or disorder in a system. It is represented by S. A more disordered system has higher entropy. Entropy generally increases when solids become liquids or gases. It helps predict spontaneity of processes. It is important in thermodynamics and physical chemistry.",
+        "topic": "Thermodynamics"
+      },
+      {
+        "question": "What is Gibbs free energy?",
+        "answer": "Gibbs free energy is represented by G and is used to predict spontaneity of a process. The formula is ΔG = ΔH - TΔS. If ΔG is negative, the process is spontaneous. If it is positive, the process is non-spontaneous. It combines enthalpy and entropy effects. It is important in thermodynamics.",
+        "topic": "Thermodynamics"
+      },
+      {
+        "question": "Define rate of reaction.",
+        "answer": "The rate of reaction is the change in concentration of reactants or products per unit time. It is written as Rate = -Δ[R]/Δt or Δ[P]/Δt. Faster reactions have higher rates. Rate depends on concentration, temperature, catalyst, and surface area. It is central to chemical kinetics. It helps understand reaction speed.",
+        "topic": "Chemical Kinetics"
+      },
+      {
+        "question": "What is the rate law?",
+        "answer": "The rate law expresses the rate of a reaction in terms of concentration of reactants. It is written as Rate = k[A]^m[B]^n. Here k is rate constant and m, n are reaction orders. It is determined experimentally. It helps understand reaction mechanism. It is a key concept in chemical kinetics.",
+        "topic": "Chemical Kinetics"
+      },
+      {
+        "question": "Define order of reaction.",
+        "answer": "The order of a reaction is the sum of the powers of concentration terms in the rate law. For example, in Rate = k[A]^2[B], the order is 3. Order may be zero, fractional, or whole number. It gives information about how rate depends on concentration. It is determined experimentally. It is important in kinetics.",
+        "topic": "Chemical Kinetics"
+      },
+      {
+        "question": "What is molecularity of a reaction?",
+        "answer": "Molecularity is the number of reacting species colliding simultaneously in an elementary step. It is always a whole number such as 1, 2, or 3. It cannot be zero or fractional. It applies only to elementary reactions. It is different from order of reaction. It is useful in reaction mechanism.",
+        "topic": "Chemical Kinetics"
+      },
+      {
+        "question": "Write the Arrhenius equation.",
+        "answer": "The Arrhenius equation is k = Ae^(-Ea/RT). Here k is rate constant, A is frequency factor, Ea is activation energy, R is gas constant, and T is temperature. It explains why rate increases with temperature. It is important in chemical kinetics. It relates rate constant with activation energy.",
+        "topic": "Chemical Kinetics"
+      },
+      {
+        "question": "Define activation energy.",
+        "answer": "Activation energy is the minimum energy required for reactant molecules to undergo a successful collision and form products. It is represented by Ea. Reactions with lower activation energy occur faster. Catalysts lower activation energy. It is central to understanding reaction rate. It is important in chemical kinetics.",
+        "topic": "Chemical Kinetics"
+      },
+      {
+        "question": "What is catalyst?",
+        "answer": "A catalyst is a substance that changes the rate of a reaction without being consumed permanently. It generally increases reaction rate by lowering activation energy. Catalysts do not change the equilibrium position. They are widely used in industries. They make reactions more efficient. They are important in chemistry and manufacturing.",
+        "topic": "Chemical Kinetics"
+      },
+      {
+        "question": "Define pH and write its formula.",
+        "answer": "pH is a measure of acidity or basicity of a solution. It is defined as pH = -log[H+]. Lower pH means more acidic solution. Higher pH means more basic solution. Neutral solution has pH 7. The pH scale is very important in chemistry and biology. It is widely used for solution analysis.",
+        "topic": "Equilibrium"
+      },
+      {
+        "question": "What is ionic product of water?",
+        "answer": "The ionic product of water is the product of hydrogen ion concentration and hydroxide ion concentration. It is Kw = [H+][OH-]. At 25°C, Kw = 1.0 × 10^-14. This relation is used to calculate pH and pOH. It is important in acid-base chemistry. It helps explain neutrality of water.",
+        "topic": "Equilibrium"
+      },
+      {
+        "question": "State Le Chatelier’s principle.",
+        "answer": "Le Chatelier’s principle states that if a system at equilibrium is disturbed by changing concentration, pressure, or temperature, the equilibrium shifts in a direction that opposes the disturbance. It helps predict changes in equilibrium position. It is used in chemical industry. It is important in reversible reactions. It is a major principle in equilibrium.",
+        "topic": "Equilibrium"
+      },
+      {
+        "question": "Define solubility product.",
+        "answer": "Solubility product is the product of molar concentrations of ions in a saturated solution of a sparingly soluble salt, each raised to the power of its coefficient. It is represented by Ksp. It helps predict precipitation. It is important in ionic equilibria. It is widely used in qualitative analysis.",
+        "topic": "Equilibrium"
+      },
+      {
+        "question": "What is common ion effect?",
+        "answer": "The common ion effect is the suppression of ionization of a weak electrolyte by adding a strong electrolyte that has a common ion. It reduces solubility or ionization. It is explained by Le Chatelier’s principle. It is important in buffer solutions and precipitation. It is useful in ionic equilibrium problems.",
+        "topic": "Equilibrium"
+      },
+      {
+        "question": "Define colligative properties.",
+        "answer": "Colligative properties are properties of solutions that depend only on the number of solute particles and not on their nature. These include relative lowering of vapour pressure, elevation of boiling point, depression of freezing point, and osmotic pressure. They are useful in determining molar masses. They are important in physical chemistry.",
+        "topic": "Solutions"
+      },
+      {
+        "question": "Write the formula for osmotic pressure.",
+        "answer": "Osmotic pressure is the pressure required to stop osmosis. The formula is π = CRT or π = nRT/V. Here C is molar concentration, R is gas constant, and T is temperature. It is a colligative property. It is important in biological and chemical systems. It is used for molar mass determination.",
+        "topic": "Solutions"
+      },
+      {
+        "question": "What is Raoult’s law?",
+        "answer": "Raoult’s law states that the partial vapour pressure of each component in an ideal solution is equal to the product of vapour pressure of pure component and its mole fraction in the solution. It is written as P = P°X. It explains vapour pressure lowering. It is important in ideal solutions. It is widely used in solution chemistry.",
+        "topic": "Solutions"
+      },
+      {
+        "question": "Define hydrogen bond.",
+        "answer": "A hydrogen bond is a weak attraction between hydrogen attached to a highly electronegative atom like N, O, or F and another electronegative atom. It is stronger than van der Waals forces but weaker than covalent bonds. It affects boiling point and solubility. It is important in water, proteins, and DNA. It is significant in chemistry and biology.",
+        "topic": "Chemical Bonding"
+      },
+      {
+        "question": "What are London dispersion forces?",
+        "answer": "London dispersion forces are weak intermolecular attractions caused by temporary dipoles in atoms or molecules. They are present in all molecules, especially non-polar ones. Their strength increases with molar mass and surface area. They explain boiling points of noble gases and hydrocarbons. They are part of van der Waals forces. They are important in physical properties of substances.",
+        "topic": "Chemical Bonding"
+      }
+    ],
+    "english": [
+      {
+        "question": "What is communication and why is it important?",
+        "answer": "Communication is the process of sharing ideas, information, thoughts, and feelings from one person to another. It is important because it helps build understanding and relationships. Good communication improves confidence and clarity. It is necessary in school, workplace, and personal life. Strong communication skills support leadership and teamwork. It is one of the most useful life skills.",
+        "topic": "Communication Skills"
+      },
+      {
+        "question": "Explain formal letter writing.",
+        "answer": "A formal letter is written for official or professional purposes. It follows a fixed format including sender’s address, date, receiver’s address, subject, salutation, body, and closing. The language should be polite and clear. It is used for complaints, requests, job applications, and official matters. Proper format is very important in exams. It tests both writing skill and presentation.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "Explain informal letter writing.",
+        "answer": "An informal letter is written to friends, relatives, or family members. It has a personal tone and simple language. It usually includes sender’s address, date, salutation, body, and a friendly closing. The style is more natural than formal letters. It is used to share feelings, news, or experiences. It helps improve personal expression.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is article writing?",
+        "answer": "Article writing is a form of writing in which ideas are presented on a particular topic in an interesting and organized way. An article usually has a title, introduction, body, and conclusion. It may be factual, descriptive, or opinion-based. Good article writing uses clear language and proper structure. It is common in school exams. It also develops analytical thinking.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is report writing?",
+        "answer": "Report writing presents factual information about an event, activity, or issue in a clear and organized way. A report usually includes heading, byline, place, date, and details of the event. It should be written in past tense and in a formal tone. Reports are used in newspapers, schools, and offices. They help present information accurately. It is an important exam topic.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "Explain speech writing.",
+        "answer": "Speech writing is the art of preparing a spoken presentation for an audience. A good speech begins with greeting, introduces the topic, develops the ideas clearly, and ends with a strong conclusion. It should be engaging and persuasive. Formal speeches often use respectful language. Speech writing improves expression and confidence. It is useful in competitions and exams.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is debate writing?",
+        "answer": "Debate writing presents arguments for or against a topic in a formal style. It usually begins with addressing the chairperson and audience. The writer clearly takes one side and supports it with logical points. A debate should be persuasive and well-structured. It may also include counterarguments. This type of writing improves reasoning and public speaking skills.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is notice writing?",
+        "answer": "Notice writing is a formal way of giving information to a group of people. A notice includes name of institution, the word 'Notice', date, title, body, and signature. It should be brief, clear, and informative. It is used for meetings, competitions, lost items, and school events. Correct format is very important. It is frequently asked in exams.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "Explain poster writing.",
+        "answer": "Poster writing is a creative form of visual communication used to spread awareness or advertise an event. A poster should have an attractive title, catchy slogan, and brief details. It uses simple language and appealing presentation. Posters are used for campaigns, social messages, and school functions. They test creativity and clarity. They are important in practical writing.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is advertisement writing?",
+        "answer": "Advertisement writing is used to promote a product, service, event, or announcement. It should be brief, attractive, and informative. A good advertisement includes a headline, key details, and contact information. It may be classified or display type. The language should create interest in the reader. It is useful in both exams and real life.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "Explain paragraph writing.",
+        "answer": "Paragraph writing means expressing one central idea in a clear and organized way. A good paragraph has a topic sentence, supporting details, and a concluding sentence. Unity and coherence are important features. Sentences should be linked logically. Paragraph writing improves writing discipline. It forms the base of longer answers and essays.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is essay writing?",
+        "answer": "Essay writing is a detailed expression of ideas on a given topic. A good essay has an introduction, body, and conclusion. The ideas should be arranged in a logical sequence. Language should be clear and meaningful. Essays may be descriptive, narrative, argumentative, or reflective. Essay writing develops knowledge, creativity, and expression.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "Why is vocabulary important in English?",
+        "answer": "Vocabulary is important because it helps a person express thoughts more clearly and accurately. A rich vocabulary improves reading, writing, speaking, and comprehension. It makes communication more effective. Better vocabulary also helps in literature and grammar-based questions. It increases confidence during exams and interviews. Regular reading helps improve vocabulary naturally.",
+        "topic": "Language Skills"
+      },
+      {
+        "question": "Explain the importance of grammar.",
+        "answer": "Grammar provides the rules for correct use of language. It helps form proper sentences and avoid confusion. Good grammar improves writing and speaking. It is important for formal communication, exams, and professional life. Grammar includes tense, voice, narration, and sentence structure. Strong grammar makes communication more accurate and impressive.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What are tenses and why are they important?",
+        "answer": "Tenses show the time of an action or event. The three main tenses are present, past, and future, each with subtypes. Correct tense usage makes the meaning clear. Tenses are very important in speaking and writing. They help describe actions in the right time frame. Mastery of tenses improves grammar accuracy.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Explain active and passive voice.",
+        "answer": "In active voice, the subject performs the action, while in passive voice, the subject receives the action. For example, 'The boy wrote the letter' is active and 'The letter was written by the boy' is passive. Passive voice is useful when the action is more important than the doer. It is common in formal and scientific writing. This topic is very important in grammar transformation.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Explain direct and indirect speech.",
+        "answer": "Direct speech reports the exact words of a speaker, while indirect speech reports the meaning without quoting exact words. For example, He said, 'I am happy' is direct speech. He said that he was happy is indirect speech. While changing direct to indirect speech, tense, pronouns, and time words often change. It is an important grammar topic. It improves sentence transformation skills.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is subject-verb agreement?",
+        "answer": "Subject-verb agreement means that the verb must agree with the subject in number and person. A singular subject takes a singular verb, and a plural subject takes a plural verb. For example, 'He goes' and 'They go'. Correct agreement is necessary for grammatical accuracy. Errors in this area are common in exams. It is a basic but important grammar rule.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is reading comprehension?",
+        "answer": "Reading comprehension is the ability to read a passage, understand it, and answer questions based on it. It tests understanding of facts, ideas, vocabulary, and tone. Good comprehension requires focus and regular reading practice. It improves thinking and interpretation skills. It is an essential part of English exams. It also improves general language ability.",
+        "topic": "Reading Skills"
+      },
+      {
+        "question": "Explain the importance of listening skills.",
+        "answer": "Listening skills are important because communication is not complete without understanding others. Good listening improves learning, relationships, and teamwork. It helps a student follow instructions and understand lectures better. Listening also improves pronunciation and vocabulary. It is an essential life skill. Careful listening makes communication more meaningful.",
+        "topic": "Communication Skills"
+      },
+      {
+        "question": "Why are speaking skills important?",
+        "answer": "Speaking skills help a person express ideas clearly and confidently. They are important in classrooms, interviews, discussions, and public speaking. Good speaking requires proper vocabulary, pronunciation, and confidence. It also improves social and professional interaction. Strong speaking skills make communication effective. They are useful throughout life.",
+        "topic": "Communication Skills"
+      },
+      {
+        "question": "What is the role of literature in English learning?",
+        "answer": "Literature helps students understand language, emotions, culture, and human values. Through stories, poems, and plays, learners improve vocabulary and comprehension. Literature also develops imagination and critical thinking. It teaches moral lessons and social awareness. Studying literature improves both language and personality. It is a rich part of English learning.",
+        "topic": "Literature"
+      },
+      {
+        "question": "What is theme in literature?",
+        "answer": "The theme of a literary work is the central idea or message conveyed by the author. It may relate to love, courage, nature, sacrifice, or human values. Identifying the theme helps in better understanding of the text. Themes often connect literature with real life. They are important in short and long answer questions. Theme gives depth to literary study.",
+        "topic": "Literature"
+      },
+      {
+        "question": "What is character sketch?",
+        "answer": "A character sketch is a description of a character’s qualities, behavior, and role in a story or play. It includes appearance, nature, strengths, weaknesses, and actions. A good character sketch uses examples from the text. It helps understand the deeper meaning of literature. It is commonly asked in exams. It improves analytical writing.",
+        "topic": "Literature"
+      },
+      {
+        "question": "Explain poetic devices.",
+        "answer": "Poetic devices are special language techniques used in poetry to create beauty, rhythm, and meaning. Common devices include metaphor, simile, alliteration, personification, rhyme, and imagery. They make poems more expressive and memorable. Understanding these devices helps in interpreting poetry. They are often asked in literature exams. They improve appreciation of poetic language.",
+        "topic": "Poetry"
+      },
+      {
+        "question": "What is simile?",
+        "answer": "A simile is a figure of speech that compares two unlike things using 'like' or 'as'. For example, 'as brave as a lion'. Similes make language vivid and easy to imagine. They are commonly used in poetry and prose. They help create strong images in the reader’s mind. They are an important literary device.",
+        "topic": "Poetry"
+      },
+      {
+        "question": "What is metaphor?",
+        "answer": "A metaphor is a figure of speech that compares two unlike things without using 'like' or 'as'. For example, 'Time is a thief'. It creates strong and direct imagery. Metaphors make writing more meaningful and artistic. They are commonly used in poetry and literature. Understanding metaphors improves interpretation skills.",
+        "topic": "Poetry"
+      },
+      {
+        "question": "What is personification?",
+        "answer": "Personification is a figure of speech in which human qualities are given to non-human things. For example, 'The wind whispered'. It makes writing more lively and expressive. It is widely used in poetry. It helps readers imagine nature and objects in a vivid way. It is an important poetic device.",
+        "topic": "Poetry"
+      },
+      {
+        "question": "What is alliteration?",
+        "answer": "Alliteration is the repetition of the same initial consonant sound in nearby words. For example, 'She sells sea shells'. It creates rhythm and musical effect in language. It is often used in poetry, slogans, and speeches. It makes expressions more attractive. It is an easy and important poetic device.",
+        "topic": "Poetry"
+      },
+      {
+        "question": "What is imagery in poetry?",
+        "answer": "Imagery means the use of descriptive language that appeals to the senses. It helps readers see, hear, smell, taste, or feel what the poet describes. Imagery makes poetry vivid and emotional. It creates strong pictures in the mind. It is a powerful literary tool. It improves appreciation of poems.",
+        "topic": "Poetry"
+      },
+      {
+        "question": "What is rhyme scheme?",
+        "answer": "Rhyme scheme is the pattern of rhyming words at the ends of lines in a poem. It is shown using letters like ABAB or AABB. Rhyme gives musical quality to poetry. It helps organize the structure of a poem. It is useful in poetry analysis. It makes poems more memorable.",
+        "topic": "Poetry"
+      },
+      {
+        "question": "What is narrative writing?",
+        "answer": "Narrative writing tells a story or sequence of events. It may be real or imaginary. A narrative usually includes characters, setting, plot, conflict, and conclusion. It is often written in chronological order. This form of writing develops creativity and storytelling skills. It is important for descriptive and creative tasks.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is descriptive writing?",
+        "answer": "Descriptive writing gives a detailed picture of a person, place, object, or event. It uses strong adjectives, sensory details, and clear observation. The aim is to make the reader imagine the scene vividly. Good descriptive writing is organized and expressive. It improves language richness. It is useful in essays and paragraphs.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is argumentative writing?",
+        "answer": "Argumentative writing presents a clear opinion on an issue and supports it with logic, facts, and examples. The writer must organize arguments in a convincing way. It often includes counterarguments and rebuttal. This style develops reasoning and analytical skills. It is important for debates and essays. It teaches structured thinking.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "What is precis writing?",
+        "answer": "Precis writing means reducing a passage to its essential points in a shorter form without changing the original meaning. A good precis is clear, concise, and complete. It should not include unnecessary details or personal comments. It improves comprehension and summarizing ability. It is useful in academic and professional writing. It builds discipline in expression.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "Why is summary writing important?",
+        "answer": "Summary writing is important because it teaches how to express main ideas briefly and clearly. It helps identify key points in a passage. A summary should be shorter than the original but accurate in meaning. It improves comprehension and writing precision. It is useful in study and revision. It is also valuable in professional communication.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "Explain the importance of punctuation.",
+        "answer": "Punctuation marks help organize sentences and make meaning clear. They include full stop, comma, question mark, colon, semicolon, and others. Wrong punctuation can change the meaning of a sentence. Proper punctuation improves clarity and readability. It is very important in writing. It supports good grammar and communication.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What are clauses in grammar?",
+        "answer": "A clause is a group of words that contains a subject and a verb. There are two main types: independent clause and dependent clause. An independent clause can stand alone as a sentence. A dependent clause cannot stand alone. Clauses help form complex sentences. Understanding them improves grammar and sentence structure.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What are phrases in grammar?",
+        "answer": "A phrase is a group of words that acts as a unit in a sentence but does not have both subject and verb together. Examples include noun phrase, verb phrase, and prepositional phrase. Phrases make sentences more meaningful and detailed. They are important for sentence construction. They help improve writing style and clarity.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Explain modals in English grammar.",
+        "answer": "Modals are helping verbs such as can, could, may, might, must, shall, should, will, and would. They express ability, permission, possibility, advice, or obligation. For example, 'You should study regularly'. Modals are important for correct expression of meaning. They are frequently used in grammar exercises. They improve accuracy in language use.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is editing in English grammar?",
+        "answer": "Editing means correcting grammatical, spelling, punctuation, and language errors in a passage. It helps improve the quality and correctness of writing. Editing tests understanding of grammar rules and sentence structure. It is a common exercise in exams. It teaches attention to detail. It also improves overall writing skills.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is omission in grammar exercises?",
+        "answer": "Omission exercises involve finding missing words in a sentence or passage and inserting them correctly. They test grammar, sense, and sentence flow. Common missing words include articles, prepositions, verbs, and conjunctions. These exercises improve language accuracy. They are important in school exams. They train students to read carefully.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Why is pronunciation important?",
+        "answer": "Pronunciation is important because it helps listeners understand spoken words clearly. Good pronunciation improves speaking confidence and communication. It is especially useful in presentations, interviews, and conversations. Regular listening and speaking practice improve pronunciation. It supports effective spoken English. It is a key part of language learning.",
+        "topic": "Speaking Skills"
+      },
+      {
+        "question": "What is intonation in spoken English?",
+        "answer": "Intonation is the rise and fall of voice while speaking. It helps express meaning, emotion, and emphasis. Correct intonation makes speech natural and interesting. It also helps listeners understand questions, statements, and feelings. Intonation is important in spoken communication. It improves fluency and expression.",
+        "topic": "Speaking Skills"
+      },
+      {
+        "question": "Explain the importance of confidence in communication.",
+        "answer": "Confidence helps a person express ideas clearly and without fear. It improves speaking, presentation, and social interaction. A confident speaker is more convincing and effective. Confidence grows with practice, preparation, and positive attitude. It is important in classrooms, interviews, and public speaking. It is a key part of successful communication.",
+        "topic": "Communication Skills"
+      },
+      {
+        "question": "What are the qualities of good writing?",
+        "answer": "Good writing is clear, correct, organized, and meaningful. It uses proper grammar, suitable vocabulary, and logical structure. A good piece of writing has unity and coherence. It addresses the topic directly and avoids unnecessary repetition. It also keeps the reader interested. These qualities are important in exams and real-life communication.",
+        "topic": "Writing Skills"
+      },
+      {
+        "question": "Why is reading literature useful for students?",
+        "answer": "Reading literature helps students improve language and understand human emotions, values, and experiences. It broadens imagination and cultural awareness. Literature also improves vocabulary, grammar, and comprehension. It encourages empathy and critical thinking. Stories and poems often teach life lessons. It is useful both academically and personally.",
+        "topic": "Literature"
+      },
+      {
+        "question": "What is the importance of revision in English?",
+        "answer": "Revision in English is important because it helps remember formats, grammar rules, vocabulary, and literary points. Repeated revision improves accuracy and speed in exams. It also helps identify weak areas. Good revision includes writing practice and reading previous questions. It builds confidence and clarity. It is essential for good performance.",
+        "topic": "Study Skills"
+      },
+      {
+        "question": "How can students improve English writing skills?",
+        "answer": "Students can improve English writing by reading regularly, learning vocabulary, and practicing different writing formats. They should revise grammar rules and analyze good sample answers. Writing daily paragraphs or essays helps develop fluency. Feedback from teachers also helps correct mistakes. Practice improves structure, expression, and confidence. Consistency is the key.",
+        "topic": "Study Skills"
+      }
+    ]
+  }
+}
+
+

@@ -1,0 +1,402 @@
+{
+  "class": 8,
+  "subjects": {
+
+    "mathematics": [
+      {
+        "question": "Explain rational numbers and their properties.",
+        "answer": "Rational numbers are numbers that can be written in the form p/q where q ≠ 0. Examples include 1/2, -3/4, and 5. Properties include closure, commutative, associative, and distributive laws. For example, a + b = b + a shows commutative property. Rational numbers can be represented on a number line. They are used in daily life calculations like money and measurements. They form the base of algebra.",
+        "topic": "Number System"
+      },
+      {
+        "question": "State laws of exponents with formulas.",
+        "answer": "Laws of exponents help simplify expressions. Important formulas include a^m × a^n = a^(m+n), a^m / a^n = a^(m-n), (a^m)^n = a^(mn), (ab)^n = a^n b^n, and a^0 = 1. These rules are used in algebra and scientific calculations. They simplify large expressions. They are important for higher mathematics. They are widely used in physics and engineering.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "Explain algebraic expressions.",
+        "answer": "Algebraic expressions consist of variables, constants, and operations. Example: 2x + 3y. Terms can be like or unlike. Expressions can be simplified by combining like terms. They are used in equations and problem solving. They help represent real-life situations. Algebraic expressions are fundamental in mathematics.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "Explain linear equations in one variable.",
+        "answer": "A linear equation in one variable is of the form ax + b = 0. It has only one solution. Example: 2x + 4 = 0 → x = -2. These equations are solved using simple algebraic methods. They are used in daily life problems like finding unknown values. They are fundamental in algebra.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "Explain percentage with formula.",
+        "answer": "Percentage represents a number out of 100. Formula: Percentage = (Part / Whole) × 100. It is used in profit, loss, and interest calculations. It helps compare quantities. It is widely used in daily life. It is important for exams.",
+        "topic": "Commercial Maths"
+      },
+      {
+        "question": "Explain profit and loss formulas.",
+        "answer": "Profit = Selling Price - Cost Price. Loss = Cost Price - Selling Price. Profit% = (Profit/CP) × 100. Loss% = (Loss/CP) × 100. These formulas are used in business calculations. They help determine gain or loss. They are widely used in real-life situations.",
+        "topic": "Commercial Maths"
+      },
+      {
+        "question": "Explain simple interest formula.",
+        "answer": "Simple Interest is given by SI = (P × R × T) / 100. Here P = principal, R = rate, T = time. It is used in banking and finance. It helps calculate interest on loans. It is simple and widely used.",
+        "topic": "Commercial Maths"
+      },
+      {
+        "question": "Explain area of rectangle and square.",
+        "answer": "Area of rectangle = length × breadth. Area of square = side × side. These formulas calculate space covered by shapes. They are used in construction and design. They are basic geometry concepts.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "Explain volume of cube and cuboid.",
+        "answer": "Volume of cube = side³. Volume of cuboid = length × breadth × height. Volume represents space inside object. It is used in storage and construction. It is important in geometry.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "What are integers and how are they different from whole numbers?",
+        "answer": "Integers include positive numbers, negative numbers, and zero. Whole numbers include only zero and positive numbers. For example, -3 is an integer but not a whole number. Integers are represented on the number line on both sides of zero. They are used in temperature, banking, and gains or losses. Understanding integers helps in algebra and arithmetic operations.",
+        "topic": "Number System"
+      },
+      {
+        "question": "Explain additive inverse of a number.",
+        "answer": "The additive inverse of a number is the number which when added to the original number gives zero. For example, the additive inverse of 5 is -5 and of -7 is 7. This concept is important in integers and rational numbers. It helps in solving equations and simplifying expressions. It is widely used in algebra.",
+        "topic": "Number System"
+      },
+      {
+        "question": "What is a variable in algebra?",
+        "answer": "A variable is a symbol, usually a letter, used to represent an unknown or changing value. Examples include x, y, and z. Variables help write formulas and equations in a short form. They are used in algebraic expressions and equations. Variables make mathematics more general and useful in real-life situations. They are one of the basic ideas of algebra.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "What are like and unlike terms?",
+        "answer": "Like terms are terms having the same variables raised to the same powers, such as 3x and 7x. Unlike terms have different variables or different powers, such as 2x and 2y or x and x². Like terms can be added or subtracted easily. This concept helps in simplifying algebraic expressions. It is very important in algebra.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "How do we simplify algebraic expressions?",
+        "answer": "Algebraic expressions are simplified by combining like terms and removing brackets correctly. For example, 2x + 3x becomes 5x. Simplification makes expressions shorter and easier to understand. It is used before solving equations. It reduces confusion in calculations. This is a basic skill in algebra.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "What is an equation?",
+        "answer": "An equation is a mathematical statement that shows two expressions are equal. It contains an equal sign. Example: 2x + 3 = 9. Equations are used to find unknown values. They appear in arithmetic, algebra, geometry, and real-life problems. Solving equations is an important part of mathematics.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "Explain ratio with examples.",
+        "answer": "A ratio compares two quantities of the same kind using division. It is written as a:b or a/b. For example, if there are 2 boys and 3 girls, the ratio is 2:3. Ratios are used in recipes, maps, and sharing problems. They help compare sizes or amounts. Ratio is a very useful concept in daily life.",
+        "topic": "Commercial Maths"
+      },
+      {
+        "question": "Explain proportion.",
+        "answer": "Proportion means equality of two ratios. If a:b = c:d, then the four numbers are in proportion. For example, 2:4 = 3:6. Proportion is used in scaling, maps, direct variation, and business calculations. It helps solve comparison problems. It is closely related to ratio.",
+        "topic": "Commercial Maths"
+      },
+      {
+        "question": "What is discount in commercial mathematics?",
+        "answer": "Discount is the reduction given on the marked price of an item. Discount = Marked Price - Selling Price. Discount percentage is calculated as (Discount/Marked Price) × 100. Discounts are common in shops and sales. This concept is important in business mathematics. It helps understand market prices and savings.",
+        "topic": "Commercial Maths"
+      },
+      {
+        "question": "What is compound interest?",
+        "answer": "Compound interest is interest calculated on both the principal and the previously added interest. It grows faster than simple interest. It is used in banking, savings, and investments. The amount increases every period. It is important for understanding money growth over time. It is a useful financial concept.",
+        "topic": "Commercial Maths"
+      },
+      {
+        "question": "Explain perimeter of rectangle and square.",
+        "answer": "Perimeter is the total length of the boundary of a figure. Perimeter of rectangle = 2(length + breadth). Perimeter of square = 4 × side. It is used in fencing, borders, and construction. Perimeter helps measure the outer boundary of shapes. It is an important mensuration concept.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "What is area of a triangle?",
+        "answer": "Area of a triangle = 1/2 × base × height. It tells how much space is enclosed inside the triangle. This formula is used in geometry, land measurement, and design problems. The base and height must be perpendicular. It is one of the most important area formulas.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "Explain area of a parallelogram.",
+        "answer": "Area of a parallelogram = base × height. The height is the perpendicular distance between the two parallel sides. This formula is used to find the space enclosed by the figure. It is useful in geometry and construction problems. It helps compare different shapes with the same base and height.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "What is a cube and its properties?",
+        "answer": "A cube is a three-dimensional shape having 6 equal square faces, 12 edges, and 8 vertices. All edges of a cube are equal. It is a special type of cuboid. Cubes are common in boxes, dice, and blocks. Their volume and surface area are easy to calculate. They are important in solid geometry.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "What is a cuboid and its properties?",
+        "answer": "A cuboid is a three-dimensional solid having 6 rectangular faces, 12 edges, and 8 vertices. Opposite faces are equal. Examples include bricks, books, and rooms. The volume of cuboid is length × breadth × height. It is an important solid shape in geometry. It is widely used in real-life measurement.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "Explain data handling.",
+        "answer": "Data handling means collecting, organizing, representing, and interpreting data. Data can be shown using tables, bar graphs, pie charts, and line graphs. It helps understand information clearly. It is used in surveys, business, science, and education. Data handling improves logical thinking. It is important in statistics.",
+        "topic": "Data Handling"
+      },
+      {
+        "question": "What is mean in statistics?",
+        "answer": "Mean is the average of a set of numbers. It is calculated by dividing the sum of all observations by the total number of observations. It gives a central value of the data. Mean is widely used in marks, reports, and surveys. It is one of the basic measures in statistics. It helps summarize data in a simple way.",
+        "topic": "Data Handling"
+      },
+      {
+        "question": "What is probability?",
+        "answer": "Probability is the chance of an event happening. Its value lies between 0 and 1. A probability of 0 means impossible and 1 means certain. It is used in games, weather prediction, and statistics. Probability helps us estimate likely outcomes. It is an important branch of mathematics.",
+        "topic": "Data Handling"
+      }
+    ],
+
+    "science": [
+      {
+        "question": "Explain force and pressure.",
+        "answer": "Force is push or pull acting on an object. Pressure is force per unit area. Formula: Pressure = Force / Area. Pressure depends on area and force. It is used in daily life like sharp knives and high heels. It is important in physics.",
+        "topic": "Physics"
+      },
+      {
+        "question": "Explain friction.",
+        "answer": "Friction is force that opposes motion. It occurs between surfaces. Types include static, sliding, and rolling friction. It helps in walking but also causes wear. It can be reduced using lubricants. It is important in mechanics.",
+        "topic": "Physics"
+      },
+      {
+        "question": "Explain chemical changes.",
+        "answer": "Chemical change results in new substance formation. It is irreversible. Example: burning of paper. It involves energy change. It changes composition of matter. It is important in chemistry.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "Explain photosynthesis.",
+        "answer": "Photosynthesis is process by which plants make food. Equation: 6CO2 + 6H2O → C6H12O6 + 6O2. It uses sunlight. It occurs in chloroplast. It produces oxygen. It is essential for life.",
+        "topic": "Biology"
+      },
+      {
+        "question": "Explain respiration.",
+        "answer": "Respiration is process of breaking food to release energy. Equation: Glucose + Oxygen → Carbon dioxide + Water + Energy. It occurs in cells. It is essential for life. It provides energy for body functions.",
+        "topic": "Biology"
+      },
+      {
+        "question": "What is pressure and why does it depend on area?",
+        "answer": "Pressure is the force acting on a unit area of surface. Formula: Pressure = Force/Area. When the same force acts on a smaller area, pressure becomes greater. This is why nails, pins, and knives have sharp tips. Pressure is used in many machines and tools. It is a basic concept in physics.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What are the effects of force?",
+        "answer": "A force can move a stationary object, stop a moving object, change its direction, or change its shape. Force can also increase or decrease speed. It acts as a push or pull. Daily life examples include kicking a ball or opening a door. Understanding force helps explain motion. It is one of the most important physics concepts.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What is balanced and unbalanced force?",
+        "answer": "Balanced forces are equal in size and opposite in direction, so they do not change the motion of an object. Unbalanced forces change the state of motion or shape of an object. For example, if two people push a box equally from opposite sides, it remains still. Unbalanced force makes objects move. This concept is important in mechanics.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What are the types of friction?",
+        "answer": "The main types of friction are static friction, sliding friction, rolling friction, and fluid friction. Static friction acts when an object is at rest. Sliding friction acts when an object slides over a surface. Rolling friction acts when an object rolls. Fluid friction acts in liquids and gases. Each type affects motion differently.",
+        "topic": "Physics"
+      },
+      {
+        "question": "How can friction be both useful and harmful?",
+        "answer": "Friction is useful because it helps us walk, write, hold objects, and stop vehicles using brakes. Without friction, many activities would become impossible. However, friction is also harmful because it causes wear and tear of machine parts, shoes, and tires. It also produces heat and wastes energy. So friction has both advantages and disadvantages.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What is sound and how is it produced?",
+        "answer": "Sound is a form of energy that produces the sensation of hearing. It is produced by vibrating objects. These vibrations travel through a medium like air, water, or solids. Sound cannot travel in vacuum because no particles are present there. Sound is used in communication and music. It is an important topic in physics.",
+        "topic": "Physics"
+      },
+      {
+        "question": "Explain reflection of light.",
+        "answer": "Reflection of light is the bouncing back of light rays after striking a surface. Smooth surfaces like mirrors give regular reflection. Rough surfaces give irregular reflection. Reflection helps us see objects and images in mirrors. It is used in periscopes, reflectors, and many instruments. It is an important concept in optics.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What is combustion?",
+        "answer": "Combustion is the process of burning in which a substance reacts with oxygen to release heat and light. Fuels like wood, coal, petrol, and LPG burn by combustion. Some substances catch fire easily, while some require high temperature. Combustion is used in cooking, vehicles, and industries. It is an important chemistry topic.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "What are the conditions necessary for combustion?",
+        "answer": "Three things are needed for combustion: fuel, oxygen, and ignition temperature. Fuel is the substance that burns. Oxygen supports burning. Ignition temperature is the minimum temperature needed to start combustion. If any one of these is absent, combustion cannot occur. This idea is used in fire safety.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "What is oxidation?",
+        "answer": "Oxidation is a chemical process in which a substance combines with oxygen. Rusting of iron is a common example of oxidation. It changes the chemical properties of the substance. Oxidation may be slow or fast. It is an important part of many chemical reactions. It is studied in basic chemistry.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "What is rusting of iron?",
+        "answer": "Rusting is the slow oxidation of iron in the presence of air and moisture. It forms a reddish-brown substance called rust. Rust weakens iron objects and damages them over time. Painting, oiling, or galvanizing can prevent rusting. Rusting is a common example of chemical change. It is an important chemistry concept.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "What is crystallization?",
+        "answer": "Crystallization is a method used to obtain pure crystals of a substance from its solution. It is used to purify solids like salt, sugar, and copper sulphate. The solution is heated and then cooled slowly to form crystals. This method gives better purity than simple evaporation. It is important in chemistry laboratories.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "What is crop production?",
+        "answer": "Crop production is the process of growing plants on a large scale for food and other uses. It includes preparation of soil, sowing, adding manure or fertilizers, irrigation, weeding, harvesting, and storage. Good crop production increases food supply. It is important for farmers and the economy. It is studied in biology and agriculture.",
+        "topic": "Biology"
+      },
+      {
+        "question": "What are fertilizers and manure?",
+        "answer": "Fertilizers are chemical substances added to soil to supply nutrients like nitrogen, phosphorus, and potassium. Manure is natural organic matter obtained from decomposition of plant and animal waste. Fertilizers act quickly, while manure improves soil texture. Both help in plant growth. They are important in agriculture. Their correct use increases crop yield.",
+        "topic": "Biology"
+      },
+      {
+        "question": "What is transpiration?",
+        "answer": "Transpiration is the loss of water in the form of vapor from the aerial parts of plants, mainly through stomata. It helps in cooling the plant and pulling water upward from roots. Transpiration is important for water movement in plants. It also affects weather and humidity. It is a major biology concept.",
+        "topic": "Biology"
+      },
+      {
+        "question": "What are microorganisms?",
+        "answer": "Microorganisms are tiny living organisms that cannot be seen with the naked eye. They include bacteria, fungi, protozoa, algae, and viruses. Some are useful in making curd, bread, and medicines, while some cause diseases. Microorganisms are found everywhere. They play an important role in nature and health. They are studied in microbiology.",
+        "topic": "Biology"
+      },
+      {
+        "question": "How are microorganisms useful to humans?",
+        "answer": "Microorganisms are useful in many ways. They help make curd, cheese, bread, and medicines like antibiotics. Some bacteria fix nitrogen in soil and improve fertility. They are also used in decomposition and waste treatment. Without microorganisms, many natural and industrial processes would stop. They are very important to life.",
+        "topic": "Biology"
+      },
+      {
+        "question": "What is reproduction in animals?",
+        "answer": "Reproduction is the process by which living organisms produce young ones of their own kind. In animals, reproduction may be sexual or asexual. It ensures continuation of species. Different animals reproduce in different ways such as laying eggs or giving birth. Reproduction is a basic life process. It is an important biology topic.",
+        "topic": "Biology"
+      },
+      {
+        "question": "Explain adaptation in plants and animals.",
+        "answer": "Adaptation is the special feature or behavior that helps an organism survive in its environment. Desert plants have thick stems and spines to store water and reduce water loss. Polar animals have thick fur to protect from cold. Adaptations may be structural or behavioral. They are essential for survival. Adaptation explains biodiversity in nature.",
+        "topic": "Biology"
+      }
+    ],
+
+    "english": [
+      {
+        "question": "Explain importance of reading skills.",
+        "answer": "Reading improves vocabulary and comprehension. It helps in gaining knowledge. It improves writing skills. It enhances imagination. It is important for exams. It builds confidence.",
+        "topic": "Skills"
+      },
+      {
+        "question": "Explain paragraph writing.",
+        "answer": "Paragraph writing involves expressing ideas clearly. It has introduction, body, and conclusion. Sentences should be connected. It improves communication. It is important for exams.",
+        "topic": "Writing"
+      },
+      {
+        "question": "What is a noun?",
+        "answer": "A noun is a word used to name a person, place, animal, thing, or idea. Examples include boy, city, dog, table, and honesty. Nouns are one of the most important parts of speech. They help identify who or what we are talking about. Without nouns, sentence meaning becomes unclear. They are fundamental to grammar.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is a pronoun?",
+        "answer": "A pronoun is a word that is used in place of a noun. Examples include he, she, it, they, and we. Pronouns help avoid repetition in speech and writing. They make sentences shorter and smoother. Pronouns are very useful in communication. They are an important part of English grammar.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is a verb?",
+        "answer": "A verb is a word that shows action, occurrence, or state of being. Examples include run, eat, write, sleep, is, and are. Verbs are necessary to complete most sentences. They tell us what the subject is doing. Correct use of verbs improves sentence structure. They are a central part of grammar.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is an adjective?",
+        "answer": "An adjective is a word that describes or qualifies a noun or pronoun. Examples are tall, beautiful, honest, and red. Adjectives make language more descriptive and interesting. They add information about size, color, shape, number, or quality. Good writing often uses proper adjectives. They improve expression in English.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is an adverb?",
+        "answer": "An adverb is a word that describes a verb, an adjective, or another adverb. It tells how, when, where, or to what extent something happens. Examples include quickly, very, yesterday, and here. Adverbs make meaning more precise. They help in describing actions clearly. They are an essential part of grammar.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is a sentence?",
+        "answer": "A sentence is a group of words that makes complete sense. It usually has a subject and a predicate. A sentence starts with a capital letter and ends with a full stop, question mark, or exclamation mark. Sentences are the building blocks of writing. Clear sentences improve communication. Good grammar depends on sentence formation.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is tense?",
+        "answer": "Tense shows the time of an action or event. The main tenses are present, past, and future. Each tense may have simple, continuous, perfect, and perfect continuous forms. Tense helps us express when something happens. Correct use of tense is necessary for proper grammar. It is an important topic in English.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is comprehension?",
+        "answer": "Comprehension means understanding what we read. It includes finding main ideas, details, meanings, and answers from a passage. Good comprehension improves learning and exam performance. It also increases vocabulary and concentration. Reading comprehension is very important in English studies. It develops thinking and interpretation skills.",
+        "topic": "Skills"
+      },
+      {
+        "question": "What is letter writing?",
+        "answer": "Letter writing is a written form of communication between people. Letters may be formal or informal depending on purpose. A proper letter includes address, date, salutation, body, and closing. Letter writing helps express ideas clearly and politely. It is an important writing skill. It is often asked in exams.",
+        "topic": "Writing"
+      },
+      {
+        "question": "What is essay writing?",
+        "answer": "Essay writing is the process of expressing ideas on a topic in an organized and meaningful way. A good essay has an introduction, body paragraphs, and conclusion. It helps develop reasoning and expression. Essay writing improves vocabulary, grammar, and creativity. It is widely used in school and competitive exams. It is an important part of English writing.",
+        "topic": "Writing"
+      },
+      {
+        "question": "What is punctuation?",
+        "answer": "Punctuation is the use of symbols like full stop, comma, question mark, exclamation mark, and colon in writing. These marks help make meaning clear. They show pauses, questions, emotions, and separation of ideas. Correct punctuation improves readability. It is very important for good writing. Without punctuation, sentences can become confusing.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is vocabulary?",
+        "answer": "Vocabulary is the collection of words known and used by a person. A strong vocabulary helps in speaking, writing, reading, and understanding better. Learning new words improves communication. Vocabulary development is important for exams and daily life. It also increases confidence in English. It is one of the keys to language learning.",
+        "topic": "Skills"
+      }
+    ],
+
+    "gk": [
+      {
+        "question": "What is environment?",
+        "answer": "Environment includes all living and non-living things. It supports life. It includes air, water, land. Pollution harms environment. Protection is necessary. It is important for survival.",
+        "topic": "Environment"
+      },
+      {
+        "question": "What is democracy?",
+        "answer": "Democracy is system where people elect leaders. It ensures equality and freedom. It promotes participation. It protects rights. It is widely used form of government.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is pollution?",
+        "answer": "Pollution is the contamination of the environment by harmful substances. It can affect air, water, soil, and sound levels. Pollution harms plants, animals, and humans. It is caused by smoke, garbage, chemicals, and noise. Reducing pollution is important for a healthy life. Environmental protection depends on controlling pollution.",
+        "topic": "Environment"
+      },
+      {
+        "question": "What is global warming?",
+        "answer": "Global warming is the gradual increase in the average temperature of the Earth. It is caused mainly by greenhouse gases released from vehicles, factories, and deforestation. It leads to melting glaciers, climate change, and rising sea levels. Global warming affects weather and ecosystems. It is a major environmental problem. Controlling it is necessary for the future.",
+        "topic": "Environment"
+      },
+      {
+        "question": "What is the Constitution?",
+        "answer": "The Constitution is the supreme set of laws and principles that governs a country. It explains the structure of government and the rights and duties of citizens. In India, the Constitution came into effect on 26 January 1950. It ensures justice, liberty, and equality. It is the foundation of democracy. It protects citizens and maintains order.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is equality?",
+        "answer": "Equality means that every person should get the same rights, respect, and opportunities. It is an important democratic value. Equality helps reduce discrimination based on caste, religion, gender, or status. It creates fairness in society. The Constitution gives equal rights to all citizens. Equality is necessary for social justice.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is Parliament?",
+        "answer": "Parliament is the highest law-making body of a country. In India, Parliament consists of the Lok Sabha and Rajya Sabha. It makes laws, discusses national issues, and checks government work. Parliament plays an important role in democracy. It represents the people of the nation. It is a central institution in government.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is GDP?",
+        "answer": "GDP stands for Gross Domestic Product. It is the total value of all goods and services produced in a country during a certain period. GDP is used to measure economic growth and development. A rising GDP often shows better economic performance. Economists use GDP to compare countries. It is an important term in general knowledge.",
+        "topic": "Economics"
+      },
+      {
+        "question": "What is the United Nations?",
+        "answer": "The United Nations, also called the UN or UNO, is an international organization formed in 1945. Its main aim is to maintain peace and cooperation among countries. It also works in health, education, climate, and human rights. Many countries of the world are members of the UN. It is an important global organization. It helps solve international problems peacefully.",
+        "topic": "International"
+      },
+      {
+        "question": "What is renewable energy?",
+        "answer": "Renewable energy is energy obtained from sources that can be naturally renewed, such as sunlight, wind, water, and biomass. It is cleaner than fossil fuels and causes less pollution. Renewable energy is important for sustainable development. It helps reduce global warming. Solar and wind energy are common examples. It is a major part of future energy solutions.",
+        "topic": "Environment"
+      },
+      {
+        "question": "What is solar energy?",
+        "answer": "Solar energy is the energy obtained from the Sun. It is captured using solar panels and used to produce electricity or heat. Solar energy is clean, renewable, and non-polluting. It is useful in homes, industries, and street lighting. It reduces dependence on fossil fuels. It is one of the most important energy sources of the future.",
+        "topic": "Science"
+      },
+      {
+        "question": "What is natural resource conservation?",
+        "answer": "Natural resource conservation means using natural resources carefully and preventing their waste. Resources like water, forests, minerals, and wildlife must be protected. Conservation is necessary because many resources are limited. It helps maintain ecological balance and supports future generations. Activities like planting trees and saving water are part of conservation. It is an important environmental responsibility.",
+        "topic": "Environment"
+      }
+    ]
+  }
+}

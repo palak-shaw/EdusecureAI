@@ -1,0 +1,263 @@
+{
+  "class": 9,
+  "subjects": {
+    "mathematics": [
+      {
+        "question": "What are real numbers and their properties?",
+        "answer": "Real numbers include all rational and irrational numbers. They can be represented on a number line. Properties include closure, commutative, associative, and distributive laws. For example, a + b = b + a shows commutative property. Real numbers are used in all branches of mathematics. They help in solving equations and inequalities. They form the base of algebra and calculus.",
+        "topic": "Number System"
+      },
+      {
+        "question": "Explain Euclid’s Division Lemma.",
+        "answer": "Euclid’s Division Lemma states that for any two positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b. It is used to find HCF of numbers. It forms the basis of Euclid’s algorithm. This concept is important in number theory. It helps in simplifying calculations.",
+        "topic": "Number System"
+      },
+      {
+        "question": "What is a polynomial?",
+        "answer": "A polynomial is an algebraic expression consisting of variables and coefficients. Example: 2x² + 3x + 5. Degree of polynomial is highest power of variable. Types include linear, quadratic, cubic polynomials. Polynomials are used in equations and graphs. They are important in algebra and calculus.",
+        "topic": "Polynomials"
+      },
+      {
+        "question": "State Remainder Theorem.",
+        "answer": "Remainder theorem states that if a polynomial f(x) is divided by (x - a), then remainder is f(a). It simplifies division of polynomials. It helps in factorization. It is widely used in algebra. It reduces calculation time.",
+        "topic": "Polynomials"
+      },
+      {
+        "question": "Explain linear equations in two variables.",
+        "answer": "A linear equation in two variables is of form ax + by + c = 0. It represents a straight line on graph. Solutions are pairs (x,y). Infinite solutions exist. It is used in real-life problems like budgeting. It helps understand relationships between variables.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "State laws of exponents.",
+        "answer": "Important laws are: a^m × a^n = a^(m+n), a^m / a^n = a^(m-n), (a^m)^n = a^(mn), a^0 = 1. These laws simplify expressions. They are used in algebra and scientific calculations. They are fundamental for higher mathematics.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "Define coordinate geometry.",
+        "answer": "Coordinate geometry studies geometry using coordinate system. Points are represented as (x,y). It helps find distance and midpoint. It is used in graphs and shapes. It connects algebra and geometry. It is widely used in engineering.",
+        "topic": "Geometry"
+      },
+      {
+        "question": "What is Heron’s formula?",
+        "answer": "Heron’s formula is used to find area of triangle when all sides are known. Area = √[s(s-a)(s-b)(s-c)], where s = (a+b+c)/2. It avoids need of height. It is useful in geometry problems. It is widely used in exams.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "Explain surface area of cube.",
+        "answer": "Surface area of cube is 6a², where a is side. It represents total outer area. It is used in 3D geometry. It is important in construction problems. It helps calculate material required.",
+        "topic": "Mensuration"
+      },
+      {
+        "question": "What is a rational number?",
+        "answer": "A rational number is any number that can be written in the form p/q, where p and q are integers and q is not zero. Examples are 1/2, -3/4 and 5. Rational numbers may have terminating or repeating decimals. They are used in daily calculations and algebraic expressions.",
+        "topic": "Number System"
+      },
+      {
+        "question": "What is an irrational number?",
+        "answer": "An irrational number cannot be written in the form p/q. Its decimal expansion is non-terminating and non-repeating. Examples include √2, √3 and π. Irrational numbers are important in geometry and advanced mathematics. They help represent exact values in many formulas.",
+        "topic": "Number System"
+      },
+      {
+        "question": "Explain factorization of polynomials.",
+        "answer": "Factorization means expressing a polynomial as a product of smaller polynomials or factors. For example, x² + 5x + 6 can be written as (x + 2)(x + 3). It helps in solving equations and simplifying expressions. Factorization is an important algebraic technique. It is also used in graph analysis.",
+        "topic": "Polynomials"
+      },
+      {
+        "question": "What is the difference between monomial, binomial and trinomial?",
+        "answer": "A monomial has one term, such as 5x. A binomial has two unlike terms, such as x + 3. A trinomial has three unlike terms, such as x² + 2x + 1. These forms are classified based on the number of terms. They are commonly used in algebra.",
+        "topic": "Polynomials"
+      },
+      {
+        "question": "What is the graph of a linear equation in two variables?",
+        "answer": "The graph of a linear equation in two variables is always a straight line. Every point on the line satisfies the equation. It helps us understand the relationship between two variables visually. Graphs are useful in comparing data and solving equations. They are important in coordinate geometry.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "Explain the concept of a point in coordinate geometry.",
+        "answer": "A point in coordinate geometry is represented by an ordered pair (x, y). The x-coordinate shows horizontal position and the y-coordinate shows vertical position. Points help locate positions on a plane. They are basic elements of graphs and shapes. Coordinate geometry starts with plotting points correctly.",
+        "topic": "Geometry"
+      }
+    ],
+    "science": [
+      {
+        "question": "Define matter and its states.",
+        "answer": "Matter is anything that has mass and occupies space. It exists in three states: solid, liquid, and gas. Solids have fixed shape, liquids take shape of container, gases fill entire space. Change of state occurs due to temperature and pressure. Matter is fundamental in science. It explains physical world.",
+        "topic": "Physics"
+      },
+      {
+        "question": "Explain Newton’s first law of motion.",
+        "answer": "Newton’s first law states that a body remains at rest or uniform motion unless acted upon by external force. It is also called law of inertia. Inertia is resistance to change in state. This law explains motion behavior. It is used in physics and engineering.",
+        "topic": "Physics"
+      },
+      {
+        "question": "Define force and its formula.",
+        "answer": "Force is push or pull acting on an object. It is given by F = ma. It changes motion of object. Unit is Newton. It can be contact or non-contact force. It is important in mechanics. It explains movement and interaction.",
+        "topic": "Physics"
+      },
+      {
+        "question": "Explain chemical reaction.",
+        "answer": "Chemical reaction is process where substances change into new substances. It involves breaking and forming bonds. Example: H2 + O2 → H2O. It follows conservation of mass. It is important in chemistry. It explains changes in matter.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "Define cell and its types.",
+        "answer": "Cell is basic unit of life. Types include prokaryotic and eukaryotic. Prokaryotic cells lack nucleus. Eukaryotic cells have nucleus. Cell contains organelles. It performs life functions. It is fundamental in biology.",
+        "topic": "Biology"
+      },
+      {
+        "question": "Explain photosynthesis.",
+        "answer": "Photosynthesis is process by which plants make food. Equation is 6CO2 + 6H2O → C6H12O6 + 6O2. It uses sunlight. It occurs in chloroplast. It produces oxygen. It is essential for life.",
+        "topic": "Biology"
+      },
+      {
+        "question": "What is speed and how is it calculated?",
+        "answer": "Speed is the distance travelled by an object per unit time. It is given by the formula Speed = Distance/Time. Speed is a scalar quantity because it has only magnitude. It helps measure how fast an object moves. It is one of the basic concepts in motion.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What is velocity?",
+        "answer": "Velocity is the rate of change of displacement with time. It is given by Velocity = Displacement/Time. Unlike speed, velocity has both magnitude and direction, so it is a vector quantity. It helps describe motion more accurately. It is widely used in mechanics.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What is acceleration?",
+        "answer": "Acceleration is the rate of change of velocity with time. It is calculated by the formula a = (v - u)/t. It can be positive, negative or zero depending on the motion. Acceleration explains how quickly speed or direction changes. It is a key concept in physics.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What is the law of conservation of mass?",
+        "answer": "The law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction. The total mass of reactants is equal to the total mass of products. This law is fundamental in chemistry. It helps in balancing chemical equations. It shows that matter is conserved.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "What is an atom?",
+        "answer": "An atom is the smallest unit of an element that retains its chemical properties. It consists of a nucleus containing protons and neutrons, with electrons revolving around it. Atoms combine to form molecules. They are the building blocks of matter. The study of atoms is central to chemistry.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "What is a molecule?",
+        "answer": "A molecule is formed when two or more atoms combine chemically. It may consist of the same kind of atoms, like O2, or different kinds, like H2O. Molecules are the smallest units of compounds or elemental gases. They take part in chemical reactions. Their structure affects substance properties.",
+        "topic": "Chemistry"
+      },
+      {
+        "question": "What is diffusion?",
+        "answer": "Diffusion is the movement of particles from a region of higher concentration to a region of lower concentration. It occurs in gases and liquids most easily. Diffusion explains how perfume spreads in air. It is a natural process caused by particle motion. It is important in both physics and biology.",
+        "topic": "Physics"
+      },
+      {
+        "question": "What is osmosis?",
+        "answer": "Osmosis is the movement of water molecules through a semipermeable membrane from a region of higher water concentration to lower water concentration. It is important in plant and animal cells. Osmosis helps maintain cell balance. It is a major concept in biology. It explains water absorption in roots.",
+        "topic": "Biology"
+      },
+      {
+        "question": "What is respiration in living organisms?",
+        "answer": "Respiration is the process by which living organisms break down food to release energy. In aerobic respiration, oxygen is used and carbon dioxide is produced. This energy is necessary for growth, movement and repair. Respiration happens inside cells. It is essential for survival.",
+        "topic": "Biology"
+      }
+    ],
+    "english": [
+      {
+        "question": "What is importance of reading skills?",
+        "answer": "Reading improves vocabulary and comprehension. It helps in gaining knowledge. It improves writing skills. It enhances imagination. It develops critical thinking. It is essential for academic success.",
+        "topic": "Skills"
+      },
+      {
+        "question": "Explain paragraph writing.",
+        "answer": "Paragraph writing involves expressing ideas clearly. It has introduction, body, and conclusion. Sentences should be connected. It improves communication skills. It is important for exams. It helps in structured writing.",
+        "topic": "Writing"
+      },
+      {
+        "question": "What is a noun?",
+        "answer": "A noun is a word used to name a person, place, thing or idea. Examples include boy, school, book and honesty. Nouns are one of the basic parts of speech in English grammar. They help identify subjects and objects in a sentence. Proper use of nouns improves sentence meaning.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is a pronoun?",
+        "answer": "A pronoun is a word used in place of a noun. Examples are he, she, it, they and we. Pronouns help avoid repetition in sentences. They make language smoother and easier to read. They are an important part of grammar.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is a verb?",
+        "answer": "A verb is a word that shows action, occurrence or state of being. Examples include run, eat, write, is and are. Every complete sentence usually needs a verb. Verbs help explain what the subject does. They are essential in English grammar.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is an adjective?",
+        "answer": "An adjective is a word that describes or qualifies a noun or pronoun. Examples are beautiful, tall, honest and red. Adjectives make sentences more descriptive and meaningful. They provide extra information about a person, place or thing. They improve writing quality.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is tense?",
+        "answer": "Tense shows the time of an action or event. The three main tenses are present, past and future. Each tense may have different forms such as simple, continuous, perfect and perfect continuous. Tense helps express time clearly in language. Correct tense improves grammar and communication.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is a sentence?",
+        "answer": "A sentence is a group of words that makes complete sense. It usually contains a subject and a predicate. Sentences begin with a capital letter and end with proper punctuation. They are the basic units of communication in writing. Clear sentences improve understanding.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "What is comprehension?",
+        "answer": "Comprehension means understanding the meaning of a written passage. It involves reading carefully and answering questions based on the text. Comprehension improves vocabulary, concentration and interpretation skills. It is very important for school exams. It also helps in daily reading habits.",
+        "topic": "Skills"
+      },
+      {
+        "question": "What is letter writing?",
+        "answer": "Letter writing is a written form of communication between two people or groups. Letters may be formal or informal depending on purpose. A letter usually includes address, date, salutation, body and closing. It helps express ideas clearly and politely. It is a useful writing skill.",
+        "topic": "Writing"
+      }
+    ],
+    "gk": [
+      {
+        "question": "What is democracy?",
+        "answer": "Democracy is system where people elect leaders. It ensures equality and freedom. It gives voting rights. It promotes participation. It protects citizens. It is widely used form of government.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is environment?",
+        "answer": "Environment includes all living and non-living things around us. It supports life. It includes air, water, land. Pollution harms environment. Protection is necessary. It is important for survival.",
+        "topic": "Environment"
+      },
+      {
+        "question": "What is the Constitution?",
+        "answer": "The Constitution is the supreme set of laws and principles that governs a country. It defines the structure of government and the rights and duties of citizens. In India, the Constitution came into effect on 26 January 1950. It ensures justice, liberty and equality. It is the foundation of democracy.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is pollution?",
+        "answer": "Pollution is the contamination of air, water or land by harmful substances. It affects human health, plants, animals and the environment. Types include air pollution, water pollution, soil pollution and noise pollution. Pollution is mainly caused by human activities. Controlling pollution is necessary for a healthy life.",
+        "topic": "Environment"
+      },
+      {
+        "question": "What is global warming?",
+        "answer": "Global warming is the gradual increase in Earth’s average temperature due to greenhouse gases. It is caused by pollution, deforestation and excessive fuel burning. It leads to climate change, melting glaciers and rising sea levels. It affects weather patterns and living organisms. Preventing it is a global responsibility.",
+        "topic": "Environment"
+      },
+      {
+        "question": "What is the Parliament of India?",
+        "answer": "The Parliament of India is the highest law-making body of the country. It has two houses: Lok Sabha and Rajya Sabha. Parliament makes laws, discusses national issues and controls government functioning. It plays a central role in democracy. The President is also a part of Parliament.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is GDP?",
+        "answer": "GDP stands for Gross Domestic Product. It is the total value of all goods and services produced in a country during a given period. GDP is used to measure the economic performance of a nation. A higher GDP usually indicates stronger economic activity. It is an important term in economics.",
+        "topic": "Economics"
+      },
+      {
+        "question": "What is the United Nations Organization?",
+        "answer": "The United Nations Organization, or UNO, is an international body formed in 1945 to maintain world peace and cooperation. It works on issues such as health, education, security and human rights. Many countries are members of the UN. It encourages peaceful solutions to global problems. It is a key world organization.",
+        "topic": "International"
+      },
+      {
+        "question": "What is renewable energy?",
+        "answer": "Renewable energy comes from natural sources that can be replenished, such as sunlight, wind, water and biomass. It is cleaner than fossil fuels and causes less pollution. Renewable energy is important for sustainable development. It helps reduce climate change. Solar and wind power are common examples.",
+        "topic": "Environment"
+      },
+      {
+        "question": "What is equality?",
+        "answer": "Equality means giving every person the same rights, opportunities and respect. It is a basic democratic value. Equality helps remove discrimination based on caste, gender, religion or status. It promotes justice and fairness in society. It is protected by the Constitution.",
+        "topic": "Civics"
+      }
+    ]
+  }
+}

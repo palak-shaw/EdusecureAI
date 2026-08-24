@@ -1,0 +1,173 @@
+{
+  "class": 10,
+  "subjects": {
+
+   "mathematics": [
+      {
+        "question": "Define relation and function.",
+        "answer": "A relation is a set of ordered pairs showing connection between elements of two sets. A function is a special type of relation where each input has exactly one output. Functions are denoted as f(x). Domain is set of inputs and range is outputs. Functions are used in algebra, calculus, and real-world modeling.",
+        "topic": "Relations and Functions"
+      },
+      {
+        "question": "Explain arithmetic progression (AP).",
+        "answer": "An arithmetic progression is a sequence where difference between consecutive terms is constant. General form is a, a+d, a+2d,... where a is first term and d is common difference. nth term is given by an = a + (n−1)d. Sum of n terms is Sn = n/2 [2a + (n−1)d].",
+        "topic": "Sequences"
+      },
+      {
+        "question": "Explain geometric progression (GP).",
+        "answer": "A geometric progression is a sequence where ratio between consecutive terms is constant. Form is a, ar, ar²,... where r is common ratio. nth term is an = ar^(n−1). Sum of GP is Sn = a(1−r^n)/(1−r) for r≠1. Used in finance and growth models.",
+        "topic": "Sequences"
+      },
+      {
+        "question": "Define limits.",
+        "answer": "Limit is the value a function approaches as input approaches a certain point. It is written as lim x→a f(x). Limits are foundation of calculus. They help define continuity and derivatives. Used in physics and engineering.",
+        "topic": "Calculus"
+      },
+      {
+        "question": "Explain straight line equation.",
+        "answer": "Equation of straight line is y = mx + c where m is slope and c is intercept. Slope shows inclination of line. It can also be written as y−y1 = m(x−x1). Used in coordinate geometry and physics graphs.",
+        "topic": "Coordinate Geometry"
+      }
+    ],
+
+    "physics": [
+      {
+        "question": "Define work and energy.",
+        "answer": "Work is done when force causes displacement. W = F × d. Energy is ability to do work. Types include kinetic and potential energy. Unit is Joule. These concepts are fundamental in mechanics.",
+        "topic": "Work Energy"
+      },
+      {
+        "question": "Explain kinetic energy.",
+        "answer": "Kinetic energy is energy possessed by moving object. Formula is KE = 1/2 mv². It depends on mass and velocity. Greater velocity means more energy. Used in motion problems.",
+        "topic": "Energy"
+      },
+      {
+        "question": "Define potential energy.",
+        "answer": "Potential energy is stored energy due to position. Formula is PE = mgh. It depends on height and gravity. Used in mechanics and gravitational problems.",
+        "topic": "Energy"
+      },
+      {
+        "question": "Explain law of conservation of energy.",
+        "answer": "Energy cannot be created or destroyed, only transformed. Total energy remains constant. Example: potential energy converts to kinetic energy. This law applies to all physical systems.",
+        "topic": "Energy"
+      },
+      {
+        "question": "Define power.",
+        "answer": "Power is rate of doing work. Formula is P = W/t. Unit is Watt. Higher power means faster work. Used in machines and electricity.",
+        "topic": "Work Energy"
+      }
+    ],
+
+    "chemistry": [
+      {
+        "question": "Define chemical bonding.",
+        "answer": "Chemical bonding is force holding atoms together in molecule. Types include ionic, covalent, and metallic bonding. It determines properties of substances. Important in molecular structure.",
+        "topic": "Bonding"
+      },
+      {
+        "question": "Explain ionic bond.",
+        "answer": "Ionic bond is formed by transfer of electrons from one atom to another. It results in formation of ions. Example: NaCl. Ionic compounds have high melting points.",
+        "topic": "Bonding"
+      },
+      {
+        "question": "Explain covalent bond.",
+        "answer": "Covalent bond is formed by sharing of electrons. Example: H2, O2. Molecules are stable due to shared pairs. Common in organic compounds.",
+        "topic": "Bonding"
+      },
+      {
+        "question": "Define oxidation and reduction.",
+        "answer": "Oxidation is loss of electrons, reduction is gain of electrons. These reactions occur together. Called redox reactions. Important in electrochemistry.",
+        "topic": "Redox"
+      },
+      {
+        "question": "Explain periodic table trends.",
+        "answer": "Periodic trends include atomic size, electronegativity, and ionization energy. Size decreases across period and increases down group. These trends help predict chemical behavior.",
+        "topic": "Periodic Table"
+      }
+    ],
+
+    "biology": [
+      {
+        "question": "Define tissue.",
+        "answer": "Tissue is group of similar cells performing same function. Types include epithelial, connective, muscular, and nervous tissue. It forms organs.",
+        "topic": "Biology"
+      },
+      {
+        "question": "Explain respiration.",
+        "answer": "Respiration is process of releasing energy from food. It can be aerobic or anaerobic. Produces ATP. Essential for survival.",
+        "topic": "Human Physiology"
+      },
+      {
+        "question": "Define digestion.",
+        "answer": "Digestion is breakdown of food into simpler substances. Occurs in digestive system. Enzymes play important role.",
+        "topic": "Human Body"
+      },
+      {
+        "question": "Explain human heart function.",
+        "answer": "Heart pumps blood throughout body. It has four chambers. Maintains circulation. Supplies oxygen and nutrients.",
+        "topic": "Circulation"
+      },
+      {
+        "question": "Define ecosystem.",
+        "answer": "Ecosystem is interaction between living organisms and environment. Includes biotic and abiotic factors. Maintains ecological balance.",
+        "topic": "Environment"
+      }
+    ],
+
+    "english": [
+      {
+        "question": "Define noun and its types.",
+        "answer": "Noun is name of person, place, thing, or idea. Types include proper, common, abstract, and collective nouns. It is basic part of grammar.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Explain verb.",
+        "answer": "Verb is action word in sentence. It shows action or state. Example: run, eat, is. It is essential part of sentence.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Define adjective.",
+        "answer": "Adjective describes noun. It gives more information. Example: big, happy, fast. Used in sentences for clarity.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Explain tense.",
+        "answer": "Tense shows time of action. Types include past, present, and future. It helps in correct sentence formation.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Define paragraph writing.",
+        "answer": "Paragraph is group of sentences on one idea. It has introduction, body, and conclusion. Used in writing skills.",
+        "topic": "Writing"
+      }
+    ],
+
+    "gk": [
+      {
+        "question": "What is constitution?",
+        "answer": "Constitution is set of rules for governing a country. It defines rights and duties. India has written constitution.",
+        "topic": "Civics"
+      },
+      {
+        "question": "Who is Prime Minister of India?",
+        "answer": "Prime Minister is head of government. He leads country administration. Appointed by President.",
+        "topic": "Politics"
+      },
+      {
+        "question": "What is GDP?",
+        "answer": "GDP is total value of goods and services produced in country. It measures economic growth.",
+        "topic": "Economics"
+      },
+      {
+        "question": "What is UNO?",
+        "answer": "United Nations Organization promotes peace and cooperation among countries. Founded in 1945.",
+        "topic": "International"
+      },
+      {
+        "question": "What is climate change?",
+        "answer": "Climate change refers to long-term changes in temperature and weather patterns. Caused by human activities.",
+        "topic": "Environment"
+      }
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "class": 11,
+  "subjects": {
+    "mathematics": [
+      {
+        "question": "Define set and its types.",
+        "answer": "A set is a well-defined collection of distinct objects. Types include finite, infinite, empty, singleton, and universal sets. Finite sets have limited elements while infinite sets do not. Empty set has no elements. Sets are used in relations and probability.",
+        "topic": "Sets"
+      },
+      {
+        "question": "Explain union and intersection.",
+        "answer": "Union (A ∪ B) contains all elements from both sets. Intersection (A ∩ B) contains common elements. These operations follow laws like commutative and associative. Used in Venn diagrams and real problems.",
+        "topic": "Sets"
+      },
+      {
+        "question": "Define function.",
+        "answer": "A function is a relation where each input has exactly one output. It is written as f(x). Domain is input set and range is output set. Functions are used in algebra and calculus.",
+        "topic": "Functions"
+      },
+      {
+        "question": "Define trigonometric ratios.",
+        "answer": "sinθ = opposite/hypotenuse, cosθ = adjacent/hypotenuse, tanθ = opposite/adjacent. These ratios relate angles to triangle sides. Used in physics and engineering.",
+        "topic": "Trigonometry"
+      },
+      {
+        "question": "State trigonometric identities.",
+        "answer": "sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, 1 + cot²θ = cosec²θ. These identities simplify equations and are used in proofs.",
+        "topic": "Trigonometry"
+      },
+      {
+        "question": "Explain quadratic equation.",
+        "answer": "Form ax² + bx + c = 0. Solution: x = (-b ± √(b² - 4ac))/2a. Discriminant determines nature of roots. Used in algebra problems.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "Explain arithmetic progression.",
+        "answer": "AP has constant difference. Formula: an = a + (n−1)d. Sum: Sn = n/2[2a+(n−1)d]. Used in sequences and finance.",
+        "topic": "Sequences"
+      },
+      {
+        "question": "Explain geometric progression.",
+        "answer": "GP has constant ratio. Formula: an = ar^(n−1). Sum: Sn = a(1−r^n)/(1−r). Used in growth models.",
+        "topic": "Sequences"
+      },
+      {
+        "question": "Define logarithm.",
+        "answer": "Logarithm is inverse of exponent. If a^x=b, then loga b=x. Laws help simplify expressions.",
+        "topic": "Algebra"
+      },
+      {
+        "question": "Explain permutations.",
+        "answer": "Arrangement of objects. Formula: nPr = n!/(n−r)!. Order matters. Used in probability.",
+        "topic": "Combinatorics"
+      }
+    ],
+
+    "physics": [
+      {
+        "question": "Define motion.",
+        "answer": "Motion is change in position with time. Types include uniform and non-uniform motion. Described using displacement and velocity.",
+        "topic": "Motion"
+      },
+      {
+        "question": "Define velocity and acceleration.",
+        "answer": "Velocity = displacement/time. Acceleration = change in velocity/time. Both are vector quantities.",
+        "topic": "Kinematics"
+      },
+      {
+        "question": "State equations of motion.",
+        "answer": "v=u+at, s=ut+½at², v²=u²+2as. Used in uniformly accelerated motion.",
+        "topic": "Kinematics"
+      },
+      {
+        "question": "Explain Newton’s laws.",
+        "answer": "1st: inertia, 2nd: F=ma, 3rd: action-reaction. Fundamental laws of motion.",
+        "topic": "Mechanics"
+      },
+      {
+        "question": "Define work.",
+        "answer": "Work = Force × displacement. Unit is Joule. Work is done when displacement occurs.",
+        "topic": "Work Energy"
+      },
+      {
+        "question": "Define kinetic energy.",
+        "answer": "KE = ½mv². Energy due to motion. Depends on velocity.",
+        "topic": "Energy"
+      },
+      {
+        "question": "Define potential energy.",
+        "answer": "PE = mgh. Energy due to position. Depends on height.",
+        "topic": "Energy"
+      },
+      {
+        "question": "Explain momentum.",
+        "answer": "Momentum = mv. Conserved in collisions.",
+        "topic": "Momentum"
+      },
+      {
+        "question": "Define gravitation.",
+        "answer": "F = Gm1m2/r². Force of attraction between masses.",
+        "topic": "Gravitation"
+      },
+      {
+        "question": "Define power.",
+        "answer": "Power = Work/time. Unit is Watt.",
+        "topic": "Work Energy"
+      }
+    ],
+
+    "chemistry": [
+      {
+        "question": "Define mole concept.",
+        "answer": "1 mole = 6.022×10²³ particles. Used in calculations.",
+        "topic": "Basic Chemistry"
+      },
+      {
+        "question": "Explain atomic structure.",
+        "answer": "Atom has nucleus and electrons. Bohr model explains shells.",
+        "topic": "Atomic Structure"
+      },
+      {
+        "question": "State ideal gas equation.",
+        "answer": "PV = nRT. Used for gases.",
+        "topic": "Gases"
+      },
+      {
+        "question": "Define chemical bonding.",
+        "answer": "Force holding atoms together. Types: ionic, covalent.",
+        "topic": "Bonding"
+      },
+      {
+        "question": "Explain ionic bond.",
+        "answer": "Formed by electron transfer. Example NaCl.",
+        "topic": "Bonding"
+      },
+      {
+        "question": "Explain covalent bond.",
+        "answer": "Formed by sharing electrons. Example H2.",
+        "topic": "Bonding"
+      },
+      {
+        "question": "Define pH.",
+        "answer": "Measures acidity/basicity. Range 0–14.",
+        "topic": "Acids Bases"
+      },
+      {
+        "question": "Define solution.",
+        "answer": "Homogeneous mixture of solute and solvent.",
+        "topic": "Solutions"
+      },
+      {
+        "question": "Explain catalyst.",
+        "answer": "Speeds up reaction without being consumed.",
+        "topic": "Kinetics"
+      },
+      {
+        "question": "Explain redox reaction.",
+        "answer": "Oxidation = loss of electrons, reduction = gain.",
+        "topic": "Redox"
+      }
+    ],
+
+    "biology": [
+      {
+        "question": "Define cell.",
+        "answer": "Basic unit of life. Contains nucleus and organelles.",
+        "topic": "Cell"
+      },
+      {
+        "question": "Explain photosynthesis.",
+        "answer": "6CO2+6H2O→C6H12O6+6O2 using sunlight.",
+        "topic": "Plants"
+      },
+      {
+        "question": "Define respiration.",
+        "answer": "Breakdown of food to release energy.",
+        "topic": "Physiology"
+      },
+      {
+        "question": "Define tissue.",
+        "answer": "Group of similar cells performing function.",
+        "topic": "Biology"
+      },
+      {
+        "question": "Explain digestion.",
+        "answer": "Breakdown of food into simple substances.",
+        "topic": "Human Body"
+      },
+      {
+        "question": "Explain heart function.",
+        "answer": "Pumps blood and maintains circulation.",
+        "topic": "Circulation"
+      },
+      {
+        "question": "Define enzyme.",
+        "answer": "Biological catalyst speeding reactions.",
+        "topic": "Biochemistry"
+      },
+      {
+        "question": "Explain nervous system.",
+        "answer": "Controls body activities using signals.",
+        "topic": "Human Body"
+      },
+      {
+        "question": "Define ecosystem.",
+        "answer": "Interaction of organisms and environment.",
+        "topic": "Environment"
+      },
+      {
+        "question": "Define biodiversity.",
+        "answer": "Variety of life forms on Earth.",
+        "topic": "Environment"
+      }
+    ],
+
+    "english": [
+      {
+        "question": "Define noun.",
+        "answer": "Name of person, place, or thing.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Define verb.",
+        "answer": "Action word in sentence.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Define adjective.",
+        "answer": "Describes noun.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Define adverb.",
+        "answer": "Modifies verb or adjective.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Define tense.",
+        "answer": "Shows time of action.",
+        "topic": "Grammar"
+      },
+      {
+        "question": "Explain reading skills.",
+        "answer": "Improves vocabulary and understanding.",
+        "topic": "Skills"
+      },
+      {
+        "question": "Explain paragraph writing.",
+        "answer": "Group of sentences on one topic.",
+        "topic": "Writing"
+      },
+      {
+        "question": "Define comprehension.",
+        "answer": "Understanding written text.",
+        "topic": "Skills"
+      }
+    ],
+
+    "gk": [
+      {
+        "question": "What is democracy?",
+        "answer": "Government by people.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is constitution?",
+        "answer": "Set of laws governing a country.",
+        "topic": "Civics"
+      },
+      {
+        "question": "What is GDP?",
+        "answer": "Total value of goods/services.",
+        "topic": "Economics"
+      },
+      {
+        "question": "What is UNO?",
+        "answer": "Organization for world peace.",
+        "topic": "International"
+      },
+      {
+        "question": "What is inflation?",
+        "answer": "Rise in prices.",
+        "topic": "Economics"
+      },
+      {
+        "question": "What is renewable energy?",
+        "answer": "Energy from natural sources.",
+        "topic": "Science"
+      },
+      {
+        "question": "What is globalization?",
+        "answer": "Interaction between countries.",
+        "topic": "Economics"
+      }
+    ]
+  }
+}
