@@ -9,6 +9,7 @@ dotenv.config();
 connectDB();
 
 const app = express();
+app.use(express.static(path.join(__dirname,'..',"dist")))
 
 // ✅ Uploads folder auto-create — Render ke liye zaroori
 const uploadsDir = path.join(__dirname, "../uploads");
@@ -38,5 +39,9 @@ app.use("/api/questions", questionRoutes);
 app.use((req, res) => {
   res.sendFile(path.join(__dirname, "../public/index.html"));
 });
+
+app.get("/{*splat}",(req,res)=>{
+  res.sendFile(path.join(__dirname,'..',"dist","index.html"))
+})
 
 module.exports = app;
