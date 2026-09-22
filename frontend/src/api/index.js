@@ -16,7 +16,7 @@ const CLASS_DATA = {
 
 // ─── Axios instance ───────────────────────────────────────────────────────────
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'http://localhost:5000/api',
   timeout: 30000,
 })
 
