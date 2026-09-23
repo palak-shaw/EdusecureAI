@@ -18,7 +18,9 @@ if (!fs.existsSync(uploadsDir)) {
 }
 
 app.use(cors({
-  baseURL:"https://edusecureai.onrender.com"
+  origin: "https://edusecureai.onrender.com",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
