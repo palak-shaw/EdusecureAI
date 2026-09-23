@@ -25,8 +25,8 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// ✅ Frontend static files serve karo
-app.use(express.static(path.join(__dirname, "../public")));
+// // ✅ Frontend static files serve karo
+// app.use(express.static(path.join(__dirname, "../public")));
 
 // ─── Routes ───────────────────────────────────────────────────────────────────
 const aiRoutes = require("./routes/aiRoutes");
@@ -40,9 +40,9 @@ app.use("/api/deepfake", deepfakeRoutes);
 app.use("/api/questions", questionRoutes);
 
 // ✅ React Router ke liye — sab routes pe index.html do
-app.use((req, res) => {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
-});
+// app.use((req, res) => {
+//   res.sendFile(path.join(__dirname, "../public/index.html"));
+// });
 
 app.get("/{*splat}",(req,res)=>{
   res.sendFile(path.join(__dirname,'..',"dist","index.html"))
