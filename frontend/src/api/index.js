@@ -15,11 +15,15 @@ const CLASS_DATA = {
 }
 
 // ─── Axios instance ───────────────────────────────────────────────────────────
+// const API = axios.create({
+//   baseURL: 'http://localhost:5000/api',
+//   timeout: 30000,
+// })
+
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://edusecureai.onrender.com/api',
   timeout: 30000,
 })
-
 // ─── Clean text ───────────────────────────────────────────────────────────────
 const cleanText = (text) => {
   return text
