@@ -1,2 +1,2 @@
 
-const mongoose = require("mongoos
+const mongoose = require("mongoose")
