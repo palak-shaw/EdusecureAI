@@ -20,7 +20,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
       devOptions: {
-        enabled: true
+        enabled: false 
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
